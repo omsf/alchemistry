@@ -158,26 +158,139 @@ The 2025 Free Energy Workshop, hosted by the Alchemistry Organization Committee 
 | *Acellera-sponsored Poster Prize Awarded to Edward by Dr. Elisa Donati* | *Atommap-sponsored Poster Prize Awarded to Sara by Drs. Huafeng Xu and Dmitry Lupyan* |
 
 # We Thank Our Corporate Sponsors
-* [Schrödinger Inc.](http://www.schrodinger.com)
-* [Tandem AI](https://tandemai.com)
-* [SandboxAQ](https://www.sandboxaq.com)
-* [Atommap](https://www.atommap.com)
-* [Astex Pharmaceuticals](https://astx.com)
-* [Janssen](https://www.jnj.com)
-* [Bristol Myers Squibb](https://www.bms.com)
-* [VeraChem](https://www.verachem.com)
-* [Kvantify](https://www.kvantify.com/)
-* [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
-* [Cresset Group](https://cresset-group.com)
-* [OpenBioSim](https://www.openbiosim.org)
-* [DeepOrigin](https://www.deeporigin.com)
-* [Chemical Computing Group](https://www.chemcomp.com)
-* [Vilya](https://vilyatx.com)
-* [Achira](https://achira.ai)
-* [QuantumBio](https://www.quantumbioinc.com)
-* [Acellera](https://www.acellera.com/)
-* [JCTC](https://pubs.acs.org/journal/jctcce)
-* [JCIM](https://pubs.acs.org/journal/jcisd8)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
+
+  {% include logo_card.html
+     logo_src="logos/400px-Schrodinger.png"
+     alt_text="Schrödinger"
+     url="https://www.schrodinger.com"
+     name="Schrödinger Inc." %}
+
+  {% include logo_card.html
+     logo_src="logos/TandemAI.png"
+     alt_text="Tandem AI"
+     url="https://www.tandemai.com"
+     name="Tandem AI" %}
+
+  {% include logo_card.html
+     logo_src="logos/Sandbox-AQ.png"
+     alt_text="Sandbox AQ"
+     url="https://www.sandboxaq.com"
+     name="Sandbox AQ" %}
+
+  {% include logo_card.html
+     logo_src="logos/Atommap.png"
+     alt_text="Atommap"
+     url="https://www.atommap.com"
+     name="Atommap" %}
+
+  {% include logo_card.html
+     logo_src="logos/Astex.png"
+     alt_text="Astex Pharmaceuticals"
+     url="https://astx.com"
+     name="Astex Pharmaceuticals" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Jnj.png"
+     alt_text="Janssen"
+     url="https://www.jnj.com"
+     name="Janssen" %}
+
+  {% include logo_card.html
+     logo_src="logos/BMS.png"
+     alt_text="Bristol Myers Squibb"
+     url="https://www.bms.com"
+     name="Bristol Myers Squibb" %}
+
+  {% include logo_card.html
+     logo_src="logos/VeraChem.png"
+     alt_text="VeraChem"
+     url="https://www.verachem.com"
+     name="VeraChem" %}
+
+  {% include logo_card.html
+     logo_src="logos/Kvantify.png"
+     alt_text="Kvantify"
+     url="https://www.kvantify.com"
+     name="Kvantify" %}
+
+  {% include logo_card.html
+     logo_src="logos/Boehringer_Ingelheim.png"
+     alt_text="Boehringer Ingelheim"
+     url="https://www.boehringer-ingelheim.com"
+     name="Boehringer Ingelheim" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Cresset.png"
+     alt_text="Cresset Group"
+     url="https://cresset-group.com"
+     name="Cresset Group" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Openbiosim.png"
+     alt_text="OpenBioSim"
+     url="https://www.openbiosim.org"
+     name="OpenBioSim" %}
+
+  {% include logo_card.html
+     logo_src="logos/DeepOrigin.svg"
+     alt_text="DeepOrigin"
+     url="https://www.deeporigin.com"
+     name="DeepOrigin" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-CCG.png"
+     alt_text="Chemical Computing Group"
+     url="https://www.chemcomp.com"
+     name="Chemical Computing Group" %}
+
+  {% include logo_card.html
+     logo_src="logos/vilya.png"
+     alt_text="Vilya"
+     url="https://vilyatx.com"
+     name="Vilya" %}
+
+  {% include logo_card.html
+     logo_src="logos/Achira.png"
+     alt_text="Achira"
+     url="https://achira.ai"
+     name="Achira" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-QuantumBio.png"
+     alt_text="QuantumBio"
+     url="https://www.quantumbioinc.com"
+     name="QuantumBio" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Acellera.png"
+     alt_text="Acellera"
+     url="https://www.acellera.com"
+     name="Acellera" %}
+
+  {% include logo_card.html
+     logo_src="logos/JCTC.png"
+     alt_text="JCTC"
+     url="https://pubs.acs.org/journal/jctcce"
+     name="JCTC" %}
+
+  {% include logo_card.html
+     logo_src="logos/JCIM.png"
+     alt_text="JCIM"
+     url="https://pubs.acs.org/journal/jcisd8"
+     name="JCIM" %}
+
+</div>
 
 # We Thank Our Venue Host
-* [Merck Research Laboratories](https://www.merck.com/research/)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
+
+  {% include logo_card.html
+     logo_src="logos/Merck.png"
+     alt_text="Merck"
+     url="https://www.merck.com/research/"
+     name="Merck Research Laboratories" %}
+
+</div>

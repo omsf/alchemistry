@@ -232,14 +232,68 @@ The 2018 workshop titled **2018 Workshop on Free Energy Methods, Kinetics and Ma
 
 
 # We Thank Our Corporate Sponsors
-* [Acellera](https://www.acellera.com)
-* [AstraZeneca](https://www.astrazeneca.com)
-* [BiKi Technologies](http://www.bikitech.com)
-* [Cresset Group](https://cresset-group.com)
-* [Entasis Therapeutics](http://www.entasistx.com)
-* [Genentech](https://www.gene.com)
-* [Jennsen](https://www.janssen.com)
-* [OpenEye/Cadence](https://www.eyesopen.com)
-* [QuantumBio](https://www.quantumbioinc.com)
-* [Schrödinger Inc.](http://www.schrodinger.com)
-* [Vertex](https://www.vrtx.com)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
+
+  {% include logo_card.html
+     logo_src="logos/400px-Acellera.png"
+     alt_text="Acellera"
+     url="https://www.acellera.com"
+     name="Acellera" %}
+
+  {% include logo_card.html
+     logo_src="logos/AstraZeneca_500px.png"
+     alt_text="AstraZeneca"
+     url="https://www.astrazeneca.com"
+     name="AstraZeneca" %}
+
+  {% include logo_card.html
+     logo_src="logos/BIKI.png"
+     alt_text="BiKi Technologies"
+     url="http://www.bikitech.com"
+     name="BiKi Technologies" %}
+
+
+  {% include logo_card.html
+     logo_src="logos/400px-Cresset.png"
+     alt_text="Cresset Group"
+     url="https://cresset-group.com"
+     name="Cresset Group" %}
+
+  {% include logo_card.html
+      logo_src="logos/EntasisTx.png"
+      alt_text="Entasis Therapeutics"
+      url="http://www.entasistx.com"
+      name="Entasis Therapeutics" %}
+
+  {% include logo_card.html
+      logo_src="logos/genentech.jpg"
+      alt_text="Genentech"
+      url="https://www.gene.com"
+      name="Genentech" %}
+
+  {% include logo_card.html
+      logo_src="logos/Openeye-500px.jpg"
+      alt_text="OpenEye/Cadence"
+      url="https://www.eyesopen.com"
+      name="OpenEye/Cadence" %}
+
+  {% include logo_card.html
+      logo_src="logos/QuantumBio_500px.png"
+      alt_text="QuantumBio"
+      url="https://www.quantumbioinc.com"
+      name="QuantumBio" %}
+
+  {% include logo_card.html
+      logo_src="logos/600px-Schrodinger.jpg"
+      alt_text="Schrödinger Inc."
+      url="http://www.schrodinger.com"
+      name="Schrödinger Inc." %}
+
+  {% include logo_card.html
+      logo_src="logos/Vertex-Logo.png"
+      alt_text="Vertex"
+      url="https://www.vrtx.com"
+      name="Vertex" %}
+
+</div>

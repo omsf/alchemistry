@@ -155,21 +155,115 @@ organized in partnership with  Boston Area Group for Informatics and Modeling (B
 | 2:35           | Kira + Hannah          | Closing remarks     
 
 # We Thank Our Corporate Sponsors
-* [Novartis](http://www.novartis.com)
-* [Schrödinger Inc.](http://www.schrodinger.com)
-* [Alkermes](https://www.alkermes.com)
-* [Acellera](https://www.acellera.com)
-* [AstraZeneca](https://www.astrazeneca.com)
-* [BIOVIA](https://www.3ds.com/products/biovia)
-* [Chemical Computing Group](https://www.chemcomp.com)
-* [Cresset Group](https://cresset-group.com)
-* [Lilly](https://www.lilly.com)
-* [Pfizer](https://www.pfizer.com)
-* [PlayMolecule](https://open.playmolecule.org)
-* [QuantumBio](https://www.quantumbioinc.com)
-* [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
-* [Psivant](http://www.psivant.com)
-* [Sossei Heptares](https://soseiheptares.com)
-* [Biogen](https://www.biogen.com)
-* [JCIM](https://pubs.acs.org/journal/jcisd8)
-* [OpenBioSim](https://www.openbiosim.org)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
+
+  {% include logo_card.html
+     logo_src="logos/300px-Novartis.png"
+     alt_text="Novartis"
+     url="http://www.novartis.com"
+     name="Novartis" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Schrod.png"
+     alt_text="Schrödinger Inc."
+     url="http://www.schrodinger.com"
+     name="Schrödinger Inc." %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Alkermes.png"
+     alt_text="Alkermes"
+     url="https://www.alkermes.com"
+     name="Alkermes" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Acellera.png"
+     alt_text="Acellera"
+     url="https://www.acellera.com"
+     name="Acellera" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-AstraZeneca.png"
+     alt_text="AstraZeneca"
+     url="https://www.astrazeneca.com"
+     name="AstraZeneca" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Biovia.jpg"
+     alt_text="BIOVIA"
+     url="https://www.3ds.com/products/biovia"
+     name="BIOVIA" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-CCG.png"
+     alt_text="Chemical Computing Group"
+     url="https://www.chemcomp.com"
+     name="Chemical Computing Group" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Cresset.png"
+     alt_text="Cresset Group"
+     url="https://cresset-group.com"
+     name="Cresset Group" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Lilly.jpg"
+     alt_text="Lilly"
+     url="https://www.lilly.com"
+     name="Lilly" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Pfizer.jpg"
+     alt_text="Pfizer"
+     url="https://www.pfizer.com"
+     name="Pfizer" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Playmolecule.png"
+     alt_text="PlayMolecule"
+     url="https://open.playmolecule.org"
+     name="PlayMolecule" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-QuantumBio.png"
+     alt_text="QuantumBio"
+     url="https://www.quantumbioinc.com"
+     name="QuantumBio" %}
+
+  {% include logo_card.html
+     logo_src="logos/250px-BI.jpg"
+     alt_text="Boehringer Ingelheim"
+     url="https://www.boehringer-ingelheim.com"
+     name="Boehringer Ingelheim" %}
+
+  {% include logo_card.html
+     logo_src="logos/250px-Psivant.jpg"
+     alt_text="Psivant"
+     url="http://www.psivant.com"
+     name="Psivant" %}
+
+  {% include logo_card.html
+     logo_src="logos/250px-SoseiHeptares.png"
+     alt_text="Sossei Heptares"
+     url="https://soseiheptares.com"
+     name="Sossei Heptares" %}
+
+  {% include logo_card.html
+     logo_src="logos/250px-Biogen.png"
+     alt_text="Biogen"
+     url="https://www.biogen.com"
+     name="Biogen" %}
+
+  {% include logo_card.html
+     logo_src="logos/200px-Jcim.jpg"
+     alt_text="JCIM"
+     url="https://pubs.acs.org/journal/jcisd8"
+     name="JCIM" %}
+
+  {% include logo_card.html
+     logo_src="logos/200px-Openbiosim.png"
+     alt_text="OpenBioSim"
+     url="https://www.openbiosim.org"
+     name="OpenBioSim" %}
+
+</div>

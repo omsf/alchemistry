@@ -160,16 +160,85 @@ The 2024 Workshop on Free Energy Methods in Drug Design brought together experts
 | 13:00           | **DEPARTURE**          |            |
 
 # We Thank Our Corporate Sponsors
-* [Schrödinger Inc.](http://www.schrodinger.com)
-* [Johnson & Johnson](https://www.jnj.com)
-* [Boehringer Ingelheim](https://www.boehringer-ingelheim.com)
-* [Cresset Group](https://cresset-group.com)
-* [OpenBioSim](https://www.openbiosim.org)
-* [Acellera](https://www.acellera.com)
-* [MSD](https://www.msd.com)
-* [OpenEye/Cadence](https://www.eyesopen.com)
-* [OMSF](omsf.io)
-* [MODSIM Pharma](https://modsim-pharma.com)
-* [AstraZeneca](https://www.astrazeneca.com)
-* [Galapagos](https://www.glpg.com)
-* [Merck KGaA](https://www.emdgroup.com)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
+
+  {% include logo_card.html
+     logo_src="logos/400px-Schrodinger.png"
+     alt_text="Schrödinger Inc."
+     url="http://www.schrodinger.com"
+     name="Schrödinger Inc." %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Jnj.png"
+     alt_text="Johnson & Johnson"
+     url="https://www.jnj.com"
+     name="Johnson & Johnson" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Boehringer.jpg"
+     alt_text="Boehringer Ingelheim"
+     url="https://www.boehringer-ingelheim.com"
+     name="Boehringer Ingelheim" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Cresset.png"
+     alt_text="Cresset Group"
+     url="https://cresset-group.com"
+     name="Cresset Group" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Openbiosim.png"
+     alt_text="OpenBioSim"
+     url="https://www.openbiosim.org"
+     name="OpenBioSim" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Acellera.png"
+     alt_text="Acellera"
+     url="https://www.acellera.com"
+     name="Acellera" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-MSD.png"
+     alt_text="MSD"
+     url="https://www.msd.com"
+     name="MSD" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Openeye.png"
+     alt_text="OpenEye/Cadence"
+     url="https://www.eyesopen.com"
+     name="OpenEye/Cadence" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Omsf.png"
+     alt_text="OMSF"
+     url="https://omsf.io"
+     name="OMSF" %}
+
+  {% include logo_card.html
+     logo_src="logos/300px-Modsim.jpeg"
+     alt_text="MODSIM Pharma"
+     url="https://modsim-pharma.com"
+     name="MODSIM Pharma" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Astrazeneca.png"
+     alt_text="AstraZeneca"
+     url="https://www.astrazeneca.com"
+     name="AstraZeneca" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Galapagos.png"
+     alt_text="Galapagos"
+     url="https://www.glpg.com"
+     name="Galapagos" %}
+
+  {% include logo_card.html
+     logo_src="logos/400px-Merck.png"
+     alt_text="Merck KGaA"
+     url="https://www.emdgroup.com"
+     name="Merck KGaA" %}
+
+</div>
