@@ -2,265 +2,203 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alchemistry Workshop in Free Energy Methods for Drug Design - Alchemistry</title>
+    <meta name="description" content="Annual conference on Free Energy Methods in Drug Discovery">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
-  <title><div style="display: flex; align-items: center; gap: 20px;"><img src="/assets/Free_Energy_Workshop.webp" alt="Logo" style="height: 4em; flex-shrink: 0;"><div>Alchemistry Workshop in<br>Free Energy Methods for Drug Design</div></div> - Alchemistry</title>
-  <meta name="description" content="Annual conference on Free Energy Methods in Drug Discovery" />
+<link rel="stylesheet" href="/assets/css/custom.css">
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="<div style='display: flex; align-items: center; gap: 20px;'><img src='/assets/Free_Energy_Workshop.webp' alt='Logo' style='height: 4em; flex-shrink: 0;'><div>Alchemistry Workshop in<br>Free Energy Methods for Drug Design</div></div>" />
-  <meta name="twitter:description" content="Annual conference on Free Energy Methods in Drug Discovery" />
-
-  <meta property="og:site_name" content="Alchemistry" />
-  <meta property="og:url" content="http://localhost:4000/" />
-  <meta property="og:title" content="<div style='display: flex; align-items: center; gap: 20px;'><img src='/assets/Free_Energy_Workshop.webp' alt='Logo' style='height: 4em; flex-shrink: 0;'><div>Alchemistry Workshop in<br>Free Energy Methods for Drug Design</div></div>" />
-  <meta property="og:description" content="Annual conference on Free Energy Methods in Drug Discovery" />
-  <meta property="og:type" content="website" />
-
-  <link rel="stylesheet" href="/assets/css/main.css?t=1763255412" />
-
-  <link rel="preload" as="font" href="/assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
-  <link rel="preload" as="font" href="/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
-<body class="pb-4">
-  <header>
-    <!-- navigation bar (web only): --><nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
-  <div class="container">
+<body class="colorful-layout">
 
-    <a class="navbar-brand" href="/">Alchemistry</a>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <a href="/" class="nav-brand">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Home
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown0">
-                  <a class="dropdown-item" href="/" title="Welcome">
-                    Welcome
-                  </a>
-                  <a class="dropdown-item" href="/overview/" title="Conference Overview">
-                    Conference Overview
-                  </a>
-                  <a class="dropdown-item" href="/news/" title="Latest News">
-                    Latest News
-                  </a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Program
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown1">
-                  <a class="dropdown-item" href="/program/schedule/" title="Schedule">
-                    Schedule
-                  </a>
-                  <a class="dropdown-item" href="/program/keynotes/" title="Keynotes">
-                    Keynotes
-                  </a>
-                  <a class="dropdown-item" href="/program/workshops/" title="Workshops">
-                    Workshops
-                  </a>
-                  <a class="dropdown-item" href="/program/tutorials/" title="Tutorials">
-                    Tutorials
-                  </a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Participants
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown2">
-                  <a class="dropdown-item" href="/speakers/keynotes/" title="Keynote Presenters">
-                    Keynote Presenters
-                  </a>
-                  <a class="dropdown-item" href="/speakers/invited/" title="Invited Presenters">
-                    Invited Presenters
-                  </a>
-                  <a class="dropdown-item" href="/speakers/" title="All Participants">
-                    All Participants
-                  </a>
-                  <a class="dropdown-item" href="/speakers/posters/" title="Posters">
-                    Posters
-                  </a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown3">
-                  <a class="dropdown-item" href="/about/committee/" title="Committee">
-                    Committee
-                  </a>
-                  <a class="dropdown-item" href="/about/history/" title="History">
-                    History
-                  </a>
-                  <a class="dropdown-item" href="/about/venue/" title="Venue">
-                    Venue
-                  </a>
-                  <a class="dropdown-item" href="/about/contact/" title="Contact">
-                    Contact
-                  </a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Archive
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbar-dropdown4">
-                  <a class="dropdown-item" href="/archive/2025/" title="Boston 2025">
-                    Boston 2025
-                  </a>
-                  <a class="dropdown-item" href="/archive/2024/" title="Leiden 2024">
-                    Leiden 2024
-                  </a>
-                  <a class="dropdown-item" href="/archive/2023/" title="Boston 2023">
-                    Boston 2023
-                  </a>
-                  <a class="dropdown-item" href="/archive/2022/" title="Virtual 2022">
-                    Virtual 2022
-                  </a>
-                  <a class="dropdown-item" href="/archive/2020/" title="Virtual 2020">
-                    Virtual 2020
-                  </a>
-                  <a class="dropdown-item" href="/archive/2019/" title="Göttingen 2019">
-                    Göttingen 2019
-                  </a>
-                  <a class="dropdown-item" href="/archive/2018/" title="Boston 2018">
-                    Boston 2018
-                  </a>
-              </div>
-            </li>
-      </ul>
-    </div>
-
-  </div>
-</nav></header>
-  <main class="container">
-
-  <div class="jumbotron">
-    <h1 class="display-3">
-      
-        <div style="display: flex; align-items: center; gap: 20px;"><img src="/assets/Free_Energy_Workshop.webp" alt="Logo" style="height: 4em; flex-shrink: 0;"><div>Alchemistry Workshop in<br>Free Energy Methods for Drug Design</div></div>
-      
-    </h1>
-    
-      <p class="lead">
-        <p class="lead">Annual conference on Free Energy Methods in Drug Discovery</p>
-
-      </p>
-    
-
-    <hr class="my-4">
-
-    <p><strong>Welcome to the website for the annual conference on free energy methods for drug design</strong></p>
-
-<p>For the latest news please see the <a href="/news/">Updates page</a>.</p>
-
-<p>For details about previous conferences please check the <a href="/archive/2025/">archive</a>.</p>
-
-<h2 id="upcoming-conference">Upcoming conference</h2>
-
-<p><img src="/assets/FE_workshop_2026.png" alt="Free Energy Workshop" class="img-fluid" /></p>
-
-<div style="max-width: 600px; margin: 30px auto; text-align: center;">
-
-  <h3 style="font-size: 2em; margin-bottom: 20px;">Important Dates</h3>
-
-  <table style="margin: 20px auto; width: 100%; border: 2px solid #333;" border="1">
-    <thead>
-      <tr>
-        <th><strong>Event</strong></th>
-        <th><strong>Date</strong></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Save the Date</td>
-        <td>TBA</td>
-      </tr>
-      <tr>
-        <td>Abstract Submission</td>
-        <td>TBA</td>
-      </tr>
-      <tr>
-        <td>Notification</td>
-        <td>TBA</td>
-      </tr>
-      <tr>
-        <td>Early Bird Registration</td>
-        <td>TBA</td>
-      </tr>
-      <tr>
-        <td>Registration</td>
-        <td>TBA</td>
-      </tr>
-      <tr>
-        <td>Conference Dates</td>
-        <td>May 4-6, 2026</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p><a href="/registration/" class="btn btn-primary">Register Now</a>
-<a href="/call-for-papers/" class="btn btn-secondary">Submit an Abstract</a></p>
-
-</div>
-
-<hr />
-
-<h2 id="connect-with-us">Connect With Us</h2>
-
-<div style="margin: 20px 0;">
-  <a href="https://www.youtube.com/@the-Free-Energy-Workshop" target="_blank" style="margin-right: 15px;" title="YouTube">
-    <img src="/assets/Youtube_icon.png" alt="YouTube" style="height: 50px; vertical-align: middle;" />
-  </a>
-  <a href="https://www.linkedin.com/company/free-energy-workshop/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAVtctnH1TQWmuaD6I7MFgQ%3D%3D" target="_blank" style="margin-right: 15px;" title="LinkedIn">
-    <img src="/assets/Linkedin_icon.png" alt="LinkedIn" style="height: 50px; vertical-align: middle;" />
-  </a>
-  <a href="https://bsky.app/profile/feworkshop.bsky.social" target="_blank" title="Bluesky">
-    <img src="/assets/Bluesky_Logo.png" alt="Bluesky" style="height: 50px; vertical-align: middle;" />
-  </a>
-</div>
-
-
-    
-
-  </div>
-
-
-  </main>
-  <footer class="container"></footer><div class="modal fade" id="link-modal" tabindex="-1" role="dialog" aria-labelledby="link-modal-label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="modal-title" id="link-modal-label">
-          <h3 class="mb-2 font-weight-light"></h3>
-          <h5 class="mb-0 font-weight-light"></h5>
+                <span>Alchemistry: Free Energy Workshop</span>
+            </a>
+            <ul class="nav-links">
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Home</a>
+                    <div class="dropdown-menu">
+                        
+                        <a href="/" class="dropdown-item">Welcome</a>
+                        
+                        <a href="/overview/" class="dropdown-item">Conference Overview</a>
+                        
+                        <a href="/news/" class="dropdown-item">Latest News</a>
+                        
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Program</a>
+                    <div class="dropdown-menu">
+                        
+                        <a href="/program/schedule/" class="dropdown-item">Schedule</a>
+                        
+                        <a href="/program/keynotes/" class="dropdown-item">Keynotes</a>
+                        
+                        <a href="/program/posters/" class="dropdown-item">Posters</a>
+                        
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">About</a>
+                    <div class="dropdown-menu">
+                        
+                        <a href="/about/committee/" class="dropdown-item">Committee</a>
+                        
+                        <a href="/about/venue/" class="dropdown-item">Venue</a>
+                        
+                        <a href="/about/contact/" class="dropdown-item">Contact</a>
+                        
+                        <a href="/about/sponsorship/" class="dropdown-item">Sponsorship</a>
+                        
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Previous Workshops</a>
+                    <div class="dropdown-menu">
+                        
+                        <a href="/archive/2025/" class="dropdown-item">Boston 2025</a>
+                        
+                        <a href="/archive/2024/" class="dropdown-item">Leiden 2024</a>
+                        
+                        <a href="/archive/2023/" class="dropdown-item">Boston 2023</a>
+                        
+                        <a href="/archive/2022/" class="dropdown-item">Virtual 2022</a>
+                        
+                        <a href="/archive/2020/" class="dropdown-item">Virtual 2020</a>
+                        
+                        <a href="/archive/2019/" class="dropdown-item">Göttingen 2019</a>
+                        
+                        <a href="/archive/2018/" class="dropdown-item">Boston 2018</a>
+                        
+                    </div>
+                </li>
+                
+            </ul>
+            <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
         </div>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
-      </div>
-      <div class="modal-footer justify-content-start">
-        <p></p>
-      </div>
+    </nav>
+
+    <!-- Main Content Wrapper -->
+    <!-- Hero Section -->
+<header class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1rem;">
+                <img src="/assets/images/logo_new.png" alt="Alchemistry Logo"
+                    style="height: 250px; width: auto; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h1 class="hero-title" style="margin-bottom: 0;">Alchemistry Workshop in Free Energy Methods for Drug Design</h1>
+            </div>
+            <p class="hero-subtitle">Annual conference on Free Energy Methods in Drug Discovery</p>
+            <div class="hero-actions">
+                <a href="https://www.zeffy.com/en-US/ticketing/register-for-the-2026-free-energy-workshop"
+                    class="btn btn-premium btn-light">Registration</a>
+                <a href="/news/" class="btn btn-premium btn-outline">Latest Updates</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- Abstract visual or logo -->
+            <div class="blob"></div>
+        </div>
     </div>
-  </div>
-</div>
-<!-- Append build time to avoid caching of live program embedded in JavaScript file -->
-  <script src="/assets/js/main.js?t=1763255412"></script>
+</header>
 
+<!-- Main Content -->
+<main class="main-content container">
+    <p class="intro-text"><span class="intro-lead">Welcome to the website for the annual conference on free energy methods for drug design.</span>
+<br />
+For the latest news please see the <a href="/news/" class="intro-link">Updates page</a>.
+<br />
+For details about previous conferences please check the <a href="/Previous%20Workshops/" class="intro-link">Previous Workshops</a>.</p>
+
+<p class="section-title">Upcoming Conference</p>
+
+<p><img src="/assets/FE_workshop_2026.png" alt="Free Energy Workshop" class="hero-image" /></p>
+
+<h3 class="center-container section-title" style="font-size: 1.5rem;" id="important-dates">Important Dates</h3>
+
+<table class="dates-table">
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Save the Date</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td>Abstract Submission</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td>Notification</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td>Early Bird Registration</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td>Registration</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td>Conference Dates</td>
+      <td>May 4-6, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Alchemistry: Free Energy Workshop</h3>
+                    <p>May 4-6, 2026 | Barcelona, Spain</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.youtube.com/@the-Free-Energy-Workshop" target="_blank" class="social-icon"
+                        title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/free-energy-workshop/" target="_blank" class="social-icon"
+                        title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://bsky.app/profile/feworkshop.bsky.social" target="_blank" class="social-icon"
+                        title="Bluesky"><i class="fas fa-cloud"></i></a>
+                    <a href="mailto:alchemistry@omsf.io" class="social-icon" title="Email"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alchemistry. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
 </body>
-</html>
 
+</html>

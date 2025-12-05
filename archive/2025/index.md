@@ -234,7 +234,7 @@ The 2025 Free Energy Workshop, hosted by the Alchemistry Organization Committee 
      name="OpenBioSim" %}
 
   {% include logo_card.html
-     logo_src="logos/DeepOrigin.svg"
+     logo_src="logos/DeepOrigin.png"
      alt_text="DeepOrigin"
      url="https://www.deeporigin.com"
      name="DeepOrigin" %}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    {% include head.html %}
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="colorful-layout">
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <a href="{{ site.baseurl }}/" class="nav-brand">
+
+                <span>{{ site.conference.name }}</span>
+            </a>
+            <ul class="nav-links">
+                {% for link in site.conference.navigation.links %}
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">{{ link.name }}</a>
+                    <div class="dropdown-menu">
+                        {% for item in link.menu %}
+                        <a href="{{ item.relative_url | relative_url }}" class="dropdown-item">{{ item.name }}</a>
+                        {% endfor %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Main Content Wrapper -->
+    {{ content }}
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>{{ site.conference.name }}</h3>
+                    <p>{{ site.conference.date }} | {{ site.conference.location }}</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.youtube.com/@the-Free-Energy-Workshop" target="_blank" class="social-icon"
+                        title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/free-energy-workshop/" target="_blank" class="social-icon"
+                        title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://bsky.app/profile/feworkshop.bsky.social" target="_blank" class="social-icon"
+                        title="Bluesky"><i class="fas fa-cloud"></i></a>
+                    <a href="mailto:alchemistry@omsf.io" class="social-icon" title="Email"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
