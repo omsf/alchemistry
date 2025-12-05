@@ -40,6 +40,9 @@
 <loc>http://localhost:4000/news/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/program/schedule/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/program/posters/</loc>
 </url>
 <url>
@@ -53,8 +56,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/program/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/program/schedule/</loc>
 </url>
 </urlset>

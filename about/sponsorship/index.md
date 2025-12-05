@@ -12,6 +12,8 @@ If you are interested in sponsoring the workshop please get in touch with any me
 </script>
 <noscript>alchemistry [at] omsf [dot] io</noscript> There are different sponsorship levels available as shown in the table below.
 
+You can also choose to sponsor the workshop using the given link.
+
 <style>
 table {
   border-collapse: collapse;
@@ -43,7 +45,7 @@ table tr:nth-child(even) {
 
 | **Sponsorship Level** | **Contribution** | **Seats Allotted** |
 |-----------------------|------------------|--------------------|
-| Platinum              | >$3,000          | 5                  |
-| Gold                  | $1500-$2999          | 3                  |
+| Platinum              | >$3,000          | 3                  |
+| Gold                  | $1500-$2999          | 2                  |
 | Silver                | $500-$1499         | 1                  |
 
