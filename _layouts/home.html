@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<header class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1rem;">
+                <img src="{{ site.baseurl }}/assets/images/logo_new.png" alt="Alchemistry Logo"
+                    style="height: 250px; width: auto; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h1 class="hero-title" style="margin-bottom: 0;">{{ page.title }}</h1>
+            </div>
+            <p class="hero-subtitle">{{ site.description }}</p>
+            <div class="hero-actions">
+                <a href="https://www.zeffy.com/en-US/ticketing/register-for-the-2026-free-energy-workshop"
+                    class="btn btn-premium btn-light">Registration</a>
+                <a href="{{ '/news/' | relative_url }}" class="btn btn-premium btn-outline">Latest Updates</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- Abstract visual or logo -->
+            <div class="blob"></div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="main-content container">
+    {{ content }}
+</main>

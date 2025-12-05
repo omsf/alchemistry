@@ -12,9 +12,3 @@ This workshop focuses on free energy techniques—the latest innovations and use
 Our goal in this workshop is to bring together experts from pharmaceutical and supporting industries, as well as academia, in an intense and focused workshop to identify challenges and help chart the path forward. We are particularly interested in hearing about use cases, pitfalls and their solutions, and so on. We also firmly believe we can learn a great deal from failure, so we hope participants will go beyond just highlighting success stories to provide more detailed insight into successes and failures.
 
 Additionally, the conference will serve as an opportunity for students and young scientists to network with more well known names in the field. We hope to cultivate an environment where new ideas and collaborations can be easily forged. 
-
-## Highlights of Alchemistry 2026
-
-- Feature 1
-- Feature 2
-- Feature 3

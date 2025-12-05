@@ -13,11 +13,11 @@ url: "https://[your-username].github.io"
 
 # Conference specific settings
 conference:
-  name: Your Conference Name
+  name: "Alchemistry: Free Energy Workshop"
   description: Conference Description
-  date: June 15-17, 2025
-  location: City, Country
-  venue: Convention Center Name
+  date: May 4-6, 2026
+  location: Barcelona, Spain
+  venue: UPF Campus, Ciutadella
   navigation:
     links:
       - name: Home
@@ -34,31 +34,19 @@ conference:
             relative_url: /program/schedule/
           - name: Keynotes
             relative_url: /program/keynotes/
-          - name: Workshops
-            relative_url: /program/workshops/
-          - name: Tutorials
-            relative_url: /program/tutorials/
-      - name: Participants
-        menu:
-          - name: Keynote Presenters
-            relative_url: /speakers/keynotes/
-          - name: Invited Presenters
-            relative_url: /speakers/invited/
-          - name: All Participants
-            relative_url: /speakers/
           - name: Posters
-            relative_url: /speakers/posters/
+            relative_url: /program/posters/
       - name: About
         menu:
           - name: Committee
             relative_url: /about/committee/
-          - name: History
-            relative_url: /about/history/
           - name: Venue
             relative_url: /about/venue/
           - name: Contact
             relative_url: /about/contact/
-      - name: Archive
+          - name: Sponsorship
+            relative_url: /about/sponsorship/
+      - name: Previous Workshops
         menu:
           - name: Boston 2025
             relative_url: /archive/2025/
