@@ -115,6 +115,7 @@ The 2018 workshop titled **2018 Workshop on Free Energy Methods, Kinetics and Ma
 | 5:30           | **POSTER SESSION**     | |
 
 ## Poster Session 1
+
 | Presenter | Affiliation | Title |
 |-----------|-------------|---------------------------|
 | Anna Pavlova   | Georgia Tech | Development of CHARMM-compatible parameters for cobalamins and other metal-containing cofactors |
@@ -188,6 +189,7 @@ The 2018 workshop titled **2018 Workshop on Free Energy Methods, Kinetics and Ma
 
 
 ## Poster Session 2
+
 | Presenter | Affiliation | Title |
 |-----------|-------------|---------------------------|
 | Giovanni Bottegoni | Heptares | Metadynamics with Desmond and SuMTD to predict drug-GPCR kinetics |
