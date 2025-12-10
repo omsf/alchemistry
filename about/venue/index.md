@@ -3,41 +3,60 @@ layout: page
 title: Conference Venue
 ---
 
+<div class="venue-content" markdown="1">
+
 # Conference Venue
+The conference will be held at the Auditorium of the Universitat Pompeu Fabra (UPF) - Barcelona
+
+<div class="venue-images">
+<img src="/assets/images/auditorium_entrance.png" alt="Venue Photo">
+<img src="/assets/images/auditorium_image.png" alt="Auditorium">
+</div>
 
 ## Convention Center Name
 
-![Venue Photo](/images/venue.jpg)
+<div class="venue-address-box">
+Auditorium<br>
+Ramon Trias Fargas, 25-27<br>
+08005 Barcelona<br>
+Spain
+</div>
 
-**Address**:
-123 Conference Street
-City, State ZIP
-Country
+![Venue Map](/assets/images/Venue_Map.png)
 
 ## Getting There
 
 ### By Air
-Nearest airport information and transportation options.
+The nearest airport is the [**Josep Tarradellas - El Prat airport**](https://www.aena.es/en/josep-tarradellas-barcelona-el-prat.html). The city center can be reached from the airport by:
 
-### By Train
-Train station information and connections.
+- [**Train**](https://www.aena.es/en/josep-tarradellas-barcelona-el-prat/getting-there/underground.html)
+- [**Bus**](https://www.aena.es/en/josep-tarradellas-barcelona-el-prat/getting-there/bus.html)
+
+### By Public Transit
+- **Train**: The nearest train stations are Arc de Triomf (Connections to metro L1) and Estació de França.
+- **Metro**: The nearest metro stations are Marina (L1) and Ciutadella - Villa olímpica (L4).
+- **Bus**: The nearest bus stop is in the same street (Carrer Ramon Trias Fargas) and the bus line is H16 (Connection to Bus lines: V21, 136 in the nearby street Carrer Marina).
+- **Tram**: The nearest tram station is "Wellington - UPF" (Tram lines T5 and T6).
+You can plan your journey [here](https://www.tmb.cat/en/home)
 
 ### By Car
-Driving directions and parking information.
+If coming by car, parking is available at the following parking lots. On street parking is possible but is time-limited for non-residents and subjected to fees.
+
+- **Parking lot 1**: 
+Parking BSM P.R. Biomèdica
+Carrer del Doctor Aiguader, 88, Ciutat Vella, 08003 Barcelona
+
+- **Parking lot 2**: 
+Aparcaments Saba
+Passeig de Lluís Companys, 12, Ciutat Vella, 08018 Barcelona
 
 ## Venue Facilities
 
 - Main Auditorium (500 seats)
-- 10 Breakout Rooms
-- Exhibition Hall
-- Networking Areas
-- Restaurant and Café
-- Wi-Fi Throughout
+- Wi-Fi is provided throughout campus, for attendees with academic credentials the [Eduroam network](https://www.upf.edu/en/web/biblioteca-informatica/serveis-pas/-/asset_publisher/4eLOSuq5Rqf5/content/wifi-xarxa-sense-fils/maximized) is available.
 
 ## Accessibility
 
 The venue is fully accessible with wheelchair ramps, elevators, and accessible restrooms.
 
-## Floor Plan
-
-![Floor Plan](/images/floor-plan.jpg)
+</div>

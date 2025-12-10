@@ -3,14 +3,21 @@ layout: page
 title: Sponsorship
 ---
 
-# Sponsorship
+# Sponsorship through Donations
+If you are interested in sponsoring directly please use the link below:
+
+<div class="button-container">
+  <a href="https://www.zeffy.com/en-US/donation-form/sponsor-the-free-energy-workshop--2026" class="btn btn-primary" target="_blank">Sponsor the Workshop</a>
+</div>
+
+# Sponsorship Tiers
 
 If you are interested in sponsoring the workshop please get in touch with any member of the organizing committee or email us at <script type="text/javascript">
   var user = "alchemistry";
   var domain = "omsf.io";
-  document.write('<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>');
+  document.write('<a href="mailto:' + user + '@' + domain + '" style="color: #ef4444; font-weight: bold; text-decoration: underline;">' + user + '@' + domain + '</a>');
 </script>
-<noscript>alchemistry [at] omsf [dot] io</noscript> There are different sponsorship levels available as shown in the table below.
+<noscript><span style="color: #ef4444; font-weight: bold;">alchemistry [at] omsf [dot] io</span></noscript>. There are different sponsorship levels available as shown in the table below.
 
 <style>
 table {

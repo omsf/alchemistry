@@ -4,6 +4,7 @@ title: Keynote Speakers
 ---
 
 # Keynote Speakers
+We will announce the keynote speakers soon.
 
 ## Keynote Speaker 1
 

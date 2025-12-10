@@ -5,6 +5,7 @@ title: Posters
 
 # Posters
 
+More information on poster sessions will be provided soon.
 <style>
 table {
   border-collapse: collapse;
@@ -36,8 +37,4 @@ table tr:nth-child(even) {
 
 | **Name** | **Session** | **Poster Number** |
 |----------|-------------|-------------------|
-| John Doe | Session 1 | P001 |
-| Jane Smith | Session 1 | P002 |
-| Alex Johnson | Session 2 | P003 |
-| Maria Garcia | Session 2 | P004 |
-| David Lee | Session 1 | P005 |
+| TBD | TBD | TBD |
