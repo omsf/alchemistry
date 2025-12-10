@@ -9,8 +9,8 @@ title: Conference Venue
 The conference will be held at the Auditorium of the Universitat Pompeu Fabra (UPF) - Barcelona
 
 <div class="venue-images">
-<img src="/assets/images/auditorium_entrance.png" alt="Venue Photo">
-<img src="/assets/images/auditorium_image.png" alt="Auditorium">
+<img src="{{ site.baseurl }}/assets/images/auditorium_entrance.png" alt="Venue Photo">
+<img src="{{ site.baseurl }}/assets/images/auditorium_image.png" alt="Auditorium">
 </div>
 
 ## Convention Center Name
@@ -22,7 +22,7 @@ Ramon Trias Fargas, 25-27<br>
 Spain
 </div>
 
-![Venue Map](/assets/images/Venue_Map.png)
+![Venue Map]({{ site.baseurl }}/assets/images/Venue_Map.png)
 
 ## Getting There
 
