@@ -12,7 +12,11 @@ If you are interested in sponsoring the workshop please get in touch with any me
 </script>
 <noscript>alchemistry [at] omsf [dot] io</noscript> There are different sponsorship levels available as shown in the table below.
 
-You can also choose to sponsor the workshop using the given link.
+You can also choose to sponsor the workshop using the link below:
+
+<div class="button-container">
+  <a href="https://www.zeffy.com/en-US/donation-form/sponsor-the-free-energy-workshop--2026" class="btn btn-primary" target="_blank">Sponsor the Workshop</a>
+</div>
 
 <style>
 table {
@@ -45,7 +49,7 @@ table tr:nth-child(even) {
 
 | **Sponsorship Level** | **Contribution** | **Seats Allotted** |
 |-----------------------|------------------|--------------------|
-| Platinum              | >$3,000          | 3                  |
-| Gold                  | $1500-$2999          | 2                  |
-| Silver                | $500-$1499         | 1                  |
-
+| Level 1               | >$3,000          | 3                  |
+| Level 2               | $1500-$2999      | 2                  |
+| Level 3               | $500-$1499       | 1                  |
+| Level 4               | <$500            | 0                  |

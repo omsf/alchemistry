@@ -424,7 +424,54 @@ img {
 .button-container {
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
+}
+
+/* Venue Page Styles */
+.venue-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.venue-images img {
+    width: 48%;
+    min-width: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+}
+
+.venue-address-box {
+    background-color: var(--surface-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: var(--shadow-sm);
+    max-width: 600px;
+    font-size: 1.1rem;
+}
+
+.venue-content a {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.venue-content a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .venue-images img {
+        width: 100%;
+    }
 }
