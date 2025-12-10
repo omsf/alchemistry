@@ -9,8 +9,8 @@ title: Conference Venue
 The conference will be held at the Auditorium of the Universitat Pompeu Fabra (UPF) - Barcelona
 
 <div class="venue-images">
-<img src="{{ site.baseurl }}/assets/images/auditorium_entrance.png" alt="Venue Photo">
-<img src="{{ site.baseurl }}/assets/images/auditorium_image.png" alt="Auditorium">
+  <img src="{{ site.baseurl }}/assets/images/auditorium_entrance.png" alt="Venue Photo">
+  <img src="{{ site.baseurl }}/assets/images/auditorium_image.png" alt="Auditorium">
 </div>
 
 ## Convention Center Name
