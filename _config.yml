@@ -42,8 +42,7 @@ conference:
             relative_url: /about/committee/
           - name: Venue
             relative_url: /about/venue/
-          - name: Contact
-            relative_url: /about/contact/
+
           - name: Sponsorship
             relative_url: /about/sponsorship/
       - name: Previous Workshops
