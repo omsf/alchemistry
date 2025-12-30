@@ -77,146 +77,148 @@ title: Organizing Committee
   }
 </style>
 
-# Organizing Committee
+# 2026 Organizing Committee
 
-## General Chairs
+## Chair
 
 <div class="committee-grid">
   <!-- Template for a committee member -->
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Prof. Name 1</div>
-    <div class="member-role">University Name</div>
+    <img src="{{ '/about/committee/photos/jordi_png.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Dr. Juárez-Jiménez</div>
+    <div class="member-role">University of Barcelona</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      Jordi Juárez-Jiménez is an Associate Professor of Physical Chemistry at the University of Barcelona. His research focuses on computational approaches for drug design, with an emphasis on free energy methods and the rational development of molecular glues.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
-    </div>
-  </div>
-
-  <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Prof. Name 2</div>
-    <div class="member-role">Institution Name</div>
-    <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
-    </div>
-    <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/jordi-ju%C3%A1rez-jim%C3%A9nez-45a20961/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.ub.edu/cmd_lab/welcome" title="website"><i class="fas fa-globe"></i></a>
     </div>
   </div>
 </div>
 
-## Program Chairs
+## Local Organization
 
 <div class="committee-grid">
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Dr. Name 3</div>
-    <div class="member-role">University Name</div>
+    <img src="{{ '/about/committee/photos/salome.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Dr. Salomé Llabrés</div>
+    <div class="member-role">University of Barcelona</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      Salomé Llabrés is a lecturer in Physical Chemistry at the University of Barcelona. Her research focuses on computational methods to target membrane proteins and to design new antimicrobial treatments.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/salom%C3%A9-llabr%C3%A9s-prat/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Dr. Name 4</div>
-    <div class="member-role">Research Institute</div>
+    <img src="{{ '/about/committee/photos/Carol.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Dr. Carolina Estarellas</div>
+    <div class="member-role">University of Barcelona</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      I am an Associate Professor at the University of Barcelona. My research focuses on developing new therapeutic strategies targeting human gut microbiota enzymes and cellular energy regulators implicated in cardiometabolic diseases, using advanced computational approaches including quantum mechanics and molecular dynamics simulations with enhanced sampling methods.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/carolina-estarellas-3339a2168/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.ub.edu/allo3d/" title="website"><i class="fas fa-globe"></i></a>
     </div>
   </div>
 </div>
 
-## Local Arrangements Chair
+## Sponsorship Team
 
 <div class="committee-grid">
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Name 5</div>
-    <div class="member-role">Local University</div>
+    <img src="{{ '/about/committee/photos/dima.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Dr. Dmitry Lupyan</div>
+    <div class="member-role">Schrodinger</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      Dmitry Lupyan is a Research Scientist, Product Manager and computational chemist with 20 years of experience in drug discovery. Driven by a passion for solving challenging scientific problems, he specializes in developing new tools and scientific software to advance pharmaceutical research. His expertise spans advanced molecular modeling, including molecular dynamics (MD), free energy perturbation (FEP), and binding kinetics.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/dmitry-lupyan-9980468/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <div class="committee-card">
+    <img src="{{ '/about/committee/photos/jenke-min.jpeg' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Dr. Jenke Scheen</div>
+    <div class="member-role">Open Molecular Software Foundation</div>
+    <div class="member-bio">
+      Jenke is a scientist who broadly applies and develops computational tools and benchmarks for biotechs and pharmaceutical companies. He holds a PhD from the University of Edinburgh in physics-based and data-driven predictive modelling. Previously at ASAP Discovery and CHARM Therapeutics, he currently supports early-stage discovery programs for a variety of institutions.
+    </div>
+    <div class="member-links">
+      <a href="https://www.linkedin.com/in/jenkescheen/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <div class="committee-card">
+    <img src="{{ '/about/committee/photos/Pablo.jpeg' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Pablo Navarro</div>
+    <div class="member-role">Ph.D. Candidate, NostrumBioDiscovery</div>
+    <div class="member-bio">
+      I began my career as a physicist before transitioning into computational chemistry and structural biology. Currently, I am a PhD candidate at NostrumBioDiscovery, balancing research and software development with IT infrastructure management. My work focuses on integrating AI-based approaches, molecular modeling, and free energy calculations to generate more accurate conformational ensembles that drive actionable insights for drug discovery.
+    </div>
+    <div class="member-links">
+      <a href="https://www.linkedin.com/in/pablo-navarro-acero-72bba4163/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 </div>
 
-## Publicity Chairs
+## Speakers Team
 
 <div class="committee-grid">
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Name 6</div>
-    <div class="member-role">Institution</div>
+    <img src="{{ '/about/committee/photos/tbraun_portrait.jpg' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Tatjana Braun</div>
+    <div class="member-role">Schrödinger</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      Drawing on her academic foundation in Bioinformatics and protein structural modeling, Tatjana has worked as an Applications Scientist for Schrödinger since 2017. In this role, she supports and guides customers using the company's life science software suite for various drug discovery applications with a focus on free energy calculations using FEP+.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/tatjana-braun-32183a165/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Name 7</div>
-    <div class="member-role">University</div>
+    <img src="{{ '/about/committee/photos/vytas_gapsys_photo.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Vytas Gapsys</div>
+    <div class="member-role">Johnson & Johnson</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      Vytas Gapsys is a Principal Scientist at Johnson & Johnson. Working on free energy calculations and molecular dynamics simulations.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="http://www.linkedin.com/in/vytautas-gapsys" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
-</div>
 
-## Finance Chair
 
-<div class="committee-grid">
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Name 8</div>
-    <div class="member-role">Organization</div>
+    <img src="{{ '/about/committee/photos/Bert_de_Groot.jpg' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Bert de Groot</div>
+    <div class="member-role">Max Planck Institute for multidisciplinary sciences</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      Computational biophysicist at the Max Planck Institute for multidisciplinary sciences, Göttingen, Germany. Chemistry studies and PhD from the university of Groningen, the Netherlands. Interested in protein functional dynamics, membrane channels, thermodynamics of binding and folding. Senior author/devloper of PMX.
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www3.mpibpc.mpg.de/groups/de_groot/index.html" title="website"><i class="fas fa-globe"></i></a>
     </div>
   </div>
 </div>
 
-## Web Chair
+## Website Lead
 
 <div class="committee-grid">
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/placeholder.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Name 9</div>
-    <div class="member-role">Institution</div>
+    <img src="{{ '/about/committee/photos/AK.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Aakankschit (AK) Nandkeolyar</div>
+    <div class="member-role">Ph.D. Candidate, University of California Irvine</div>
     <div class="member-bio">
-      Short bio describing the member's research interests and role in the community.
+      AK is a Ph.D. student at the University of California Irvine, USA. He is jointly supervised by Dr. Mobley and Dr. Jespers (University of Groningen, The Netherlands). He previously helped conduct the SAMPL8 physical properties challenge and his current research focusses on integrating Bayesian Inference based methods into virtual screening and correcting free energy estimates. 
     </div>
     <div class="member-links">
-      <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/aakankschit-nandkeolyar-838b0b126/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 </div>
