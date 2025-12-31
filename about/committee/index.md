@@ -101,7 +101,7 @@ title: Organizing Committee
 
 <div class="committee-grid">
   <div class="committee-card">
-    <img src="{{ '/about/committee/photos/salome.png' | relative_url }}" alt="Member Name" class="member-photo">
+    <img src="{{ '/about/committee/photos/Salome.png' | relative_url }}" alt="Member Name" class="member-photo">
     <div class="member-name">Dr. Salomé Llabrés</div>
     <div class="member-role">University of Barcelona</div>
     <div class="member-bio">
