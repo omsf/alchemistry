@@ -132,7 +132,7 @@ title: Organizing Committee
   <div class="committee-card">
     <img src="{{ '/about/committee/photos/dima.png' | relative_url }}" alt="Member Name" class="member-photo">
     <div class="member-name">Dr. Dmitry Lupyan</div>
-    <div class="member-role">Schrodinger</div>
+    <div class="member-role">Schrödinger</div>
     <div class="member-bio">
       Dmitry Lupyan is a Research Scientist, Product Manager and computational chemist with 20 years of experience in drug discovery. Driven by a passion for solving challenging scientific problems, he specializes in developing new tools and scientific software to advance pharmaceutical research. His expertise spans advanced molecular modeling, including molecular dynamics (MD), free energy perturbation (FEP), and binding kinetics.
     </div>
@@ -171,7 +171,7 @@ title: Organizing Committee
 <div class="committee-grid">
   <div class="committee-card">
     <img src="{{ '/about/committee/photos/tbraun_portrait.jpg' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Tatjana Braun</div>
+    <div class="member-name">Dr. Tatjana Braun</div>
     <div class="member-role">Schrödinger</div>
     <div class="member-bio">
       Drawing on her academic foundation in Bioinformatics and protein structural modeling, Tatjana has worked as an Applications Scientist for Schrödinger since 2017. In this role, she supports and guides customers using the company's life science software suite for various drug discovery applications with a focus on free energy calculations using FEP+.
@@ -183,7 +183,7 @@ title: Organizing Committee
 
   <div class="committee-card">
     <img src="{{ '/about/committee/photos/vytas_gapsys_photo.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Vytas Gapsys</div>
+    <div class="member-name">Dr. Vytas Gapsys</div>
     <div class="member-role">Johnson & Johnson</div>
     <div class="member-bio">
       Vytas Gapsys is a Principal Scientist at Johnson & Johnson. Working on free energy calculations and molecular dynamics simulations.
@@ -196,7 +196,7 @@ title: Organizing Committee
 
   <div class="committee-card">
     <img src="{{ '/about/committee/photos/Bert_de_Groot.jpg' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Bert de Groot</div>
+    <div class="member-name">Dr. Bert de Groot</div>
     <div class="member-role">Max Planck Institute for multidisciplinary sciences</div>
     <div class="member-bio">
       Computational biophysicist at the Max Planck Institute for multidisciplinary sciences, Göttingen, Germany. Chemistry studies and PhD from the university of Groningen, the Netherlands. Interested in protein functional dynamics, membrane channels, thermodynamics of binding and folding. Senior author/devloper of PMX.
