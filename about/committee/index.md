@@ -85,7 +85,7 @@ title: Organizing Committee
   <!-- Template for a committee member -->
   <div class="committee-card">
     <img src="{{ '/about/committee/photos/jordi_png.png' | relative_url }}" alt="Member Name" class="member-photo">
-    <div class="member-name">Dr. Juárez-Jiménez</div>
+    <div class="member-name">Dr. Jordi Juárez-Jiménez</div>
     <div class="member-role">University of Barcelona</div>
     <div class="member-bio">
       Jordi Juárez-Jiménez is an Associate Professor of Physical Chemistry at the University of Barcelona. His research focuses on computational approaches for drug design, with an emphasis on free energy methods and the rational development of molecular glues.
@@ -215,7 +215,7 @@ title: Organizing Committee
     <div class="member-name">Aakankschit (AK) Nandkeolyar</div>
     <div class="member-role">Ph.D. Candidate, University of California Irvine</div>
     <div class="member-bio">
-      AK is a Ph.D. student at the University of California Irvine, USA. He is jointly supervised by Dr. Mobley and Dr. Jespers (University of Groningen, The Netherlands). He previously helped conduct the SAMPL8 physical properties challenge and his current research focusses on integrating Bayesian Inference based methods into virtual screening and correcting free energy estimates. 
+      AK is a Ph.D. student at the University of California Irvine, USA. He is jointly supervised by Dr. Mobley and Dr. Jespers (University of Groningen, The Netherlands). He previously helped conduct the SAMPL8 physical properties challenge and his current research focuses on integrating Bayesian Inference based methods into virtual screening and correcting free energy estimates. 
     </div>
     <div class="member-links">
       <a href="https://www.linkedin.com/in/aakankschit-nandkeolyar-838b0b126/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
