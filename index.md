@@ -21,11 +21,9 @@ Upcoming Conference
 
 | Event | Date |
 |-------|------|
-| Save the Date | TBA |
-| Abstract Submission | TBA |
-| Notification | TBA |
-| Early Bird Registration | TBA |
-| Registration | TBA |
-| Conference Dates | May 4-6, 2026 |
+| Conference Dates | 4-6 May, 2026 |
+| Registration | Open |
+| Abstract Submission | 10 April 2026 |
+| Oral Contribution notification | 27 March 2026 |
 {:.dates-table}
 
