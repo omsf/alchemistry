@@ -475,4 +475,119 @@ img {
         width: 100%;
     }
 }
+
+/* Speaker Card */
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+    margin-bottom: 3rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.speaker-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.speaker-image-container {
+    width: 100%;
+    height: 400px;
+    background-color: var(--surface-color);
+    overflow: hidden;
+    position: relative;
+    box-shadow: none;
+    /* Reset shadow for container */
+    margin: 0;
+    /* Reset margin */
+}
+
+.speaker-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: transform 0.5s ease;
+    border-radius: 0;
+    /* Reset radius since container handles it */
+    max-width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.speaker-card:hover .speaker-image {
+    transform: scale(1.05);
+}
+
+.speaker-details {
+    padding: 2.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.speaker-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--surface-color);
+    padding-bottom: 1rem;
+}
+
+.speaker-name {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+}
+
+.speaker-role {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin: 0;
+}
+
+.talk-section {
+    margin-bottom: 1.5rem;
+}
+
+.talk-label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #9ca3af;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.talk-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.speaker-bio {
+    color: #4b5563;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+@media (min-width: 900px) {
+    .speaker-card {
+        flex-direction: row;
+        min-height: 450px;
+    }
+
+    .speaker-image-container {
+        width: 400px;
+        height: auto;
+        flex-shrink: 0;
+    }
+}
 }
