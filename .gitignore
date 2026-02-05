@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Local dev scripts
+run.rb
+_plugins/fix_ssl.rb
