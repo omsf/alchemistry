@@ -7,7 +7,7 @@ title: Sponsorship
 If you are interested in sponsoring directly please use the link below:
 
 <div class="button-container">
-  <a href="https://www.zeffy.com/en-US/donation-form/sponsor-the-free-energy-workshop--2026" class="btn btn-primary" target="_blank">Sponsor the Workshop</a>
+  <a href="https://www.zeffy.com/en-US/donation-form/donate-to-alchemistry" class="btn btn-primary" target="_blank">Sponsor the Workshop</a>
 </div>
 
 # Sponsorship Tiers
