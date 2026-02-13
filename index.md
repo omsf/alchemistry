@@ -23,7 +23,7 @@ Upcoming Conference
 |-------|------|
 | Conference Dates | 4-6 May, 2026 |
 | Registration | Open |
-| Abstract Submission | 10 April 2026 |
+| Abstract Submission | 28 February 2026 |
 | Oral Contribution notification | 27 March 2026 |
 {:.dates-table}
 
