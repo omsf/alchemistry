@@ -114,3 +114,21 @@ table tr:nth-child(even) {
      alt_text="UCB"
      url="https://www.ucb.com/"
      name="UCB" %}
+
+  {% include logo_card.html
+     logo_src="../../archive/2026/logos/400px-Astrazeneca.png"
+     alt_text="AstraZeneca"
+     url="https://www.astrazeneca.com"
+     name="AstraZeneca" %}
+
+  {% include logo_card.html
+     logo_src="../../archive/2026/logos/Sandbox-AQ.png"
+     alt_text="Sandbox AQ"
+     url="https://www.sandboxaq.com"
+     name="Sandbox AQ" %}
+
+  {% include logo_card.html
+     logo_src="../../archive/2026/logos/Aqemia.jpg"
+     alt_text="Aqemia"
+     url="https://aqemia.com/"
+     name="Aqemia" %}
