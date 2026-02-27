@@ -108,3 +108,9 @@ table tr:nth-child(even) {
      alt_text="NostrumBiodiscovery"
      url="https://www.nostrumbiodiscovery.com"
      name="NostrumBiodiscovery" %}
+
+  {% include logo_card.html
+     logo_src="../../archive/2026/logos/UCB.png"
+     alt_text="UCB"
+     url="https://www.ucb.com/"
+     name="UCB" %}
