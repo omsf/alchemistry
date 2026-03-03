@@ -101,3 +101,9 @@ For details about previous conferences please check the [Previous Workshops]({{ 
      alt_text="Aqemia"
      url="https://aqemia.com/"
      name="Aqemia" %}
+
+  {% include logo_card.html
+     logo_src="archive/2026/logos/anew_tx.png"
+     alt_text="Anew Therapeutics"
+     url="https://anewbt.com/"
+     name="Anew Therapeutics" %}
