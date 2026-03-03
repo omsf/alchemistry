@@ -138,3 +138,9 @@ table tr:nth-child(even) {
      alt_text="Anew Therapeutics"
      url="https://anewbt.com/"
      name="Anew Therapeutics" %}
+
+  {% include logo_card.html
+     logo_src="../../archive/2026/logos/300px-Modsim.jpeg"
+     alt_text="MODSIM Pharma"
+     url="https://modsim-pharma.com"
+     name="MODSIM Pharma" %}
