@@ -144,3 +144,9 @@ table tr:nth-child(even) {
      alt_text="MODSIM Pharma"
      url="https://modsim-pharma.com"
      name="MODSIM Pharma" %}
+
+  {% include logo_card.html
+     logo_src="../../archive/2026/logos/pharmacelera.png"
+     alt_text="Pharmacelera"
+     url="https://pharmacelera.com/"
+     name="Pharmacelera" %}
