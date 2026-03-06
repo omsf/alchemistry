@@ -85,12 +85,6 @@ For details about previous conferences please check the [Previous Workshops]({{ 
      name="UCB" %}
 
   {% include logo_card.html
-     logo_src="archive/2026/logos/400px-Astrazeneca.png"
-     alt_text="AstraZeneca"
-     url="https://www.astrazeneca.com"
-     name="AstraZeneca" %}
-
-  {% include logo_card.html
      logo_src="archive/2026/logos/Sandbox-AQ.png"
      alt_text="Sandbox AQ"
      url="https://www.sandboxaq.com"
