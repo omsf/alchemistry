@@ -26,6 +26,7 @@ We are pleased to announce the invited speakers for the 2026 workshop.
 | Vladimir Aladinskiy      | Insilico Medicine                                           |
 | Willem Jespers           | Groningen University                                        |
 | Robert Abel              | Schrodinger                                                 |
+| Antonia Mey              | University of Edinburgh                                     |
 
 <style>
 table {
