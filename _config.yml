@@ -34,6 +34,8 @@ conference:
             relative_url: /program/schedule/
           - name: Keynotes
             relative_url: /program/keynotes/
+          - name: Invited Speakers
+            relative_url: /program/invited-speakers/
           - name: Posters
             relative_url: /program/posters/
       - name: About
