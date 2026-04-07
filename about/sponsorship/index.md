@@ -149,4 +149,5 @@ table tr:nth-child(even) {
      logo_src="../../archive/2026/logos/QSimulate.png"
      alt_text="QSimulate"
      url="https://qsimulate.com"
-     name="QSimulate" %}
+     name="QSimulate"
+     height="225px" %}
