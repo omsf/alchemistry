@@ -113,3 +113,10 @@ For details about previous conferences please check the [Previous Workshops]({{ 
      alt_text="Pharmacelera"
      url="https://pharmacelera.com/"
      name="Pharmacelera" %}
+
+  {% include logo_card.html
+     logo_src="archive/2026/logos/QSimulate.png"
+     alt_text="QSimulate"
+     url="https://qsimulate.com"
+     name="QSimulate"
+     height="225px" %}
