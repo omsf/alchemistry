@@ -151,3 +151,9 @@ table tr:nth-child(even) {
      url="https://qsimulate.com"
      name="QSimulate"
      height="225px" %}
+
+  {% include logo_card.html
+     logo_src="../../assets/images/sponsors/Boehringer_Ingelheim.png"
+     alt_text="Boehringer Ingelheim"
+     url="https://www.boehringer-ingelheim.com"
+     name="Boehringer Ingelheim" %}
