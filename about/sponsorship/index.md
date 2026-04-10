@@ -157,3 +157,9 @@ table tr:nth-child(even) {
      alt_text="Boehringer Ingelheim"
      url="https://www.boehringer-ingelheim.com"
      name="Boehringer Ingelheim" %}
+
+   {% include logo_card.html
+   logo_src="assets/images/sponsors/Jnj.png"
+   alt_text="Janssen"
+   url="https://www.jnj.com/"
+   name="Janssen Pharmaceuticals" %}

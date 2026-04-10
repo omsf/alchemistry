@@ -126,3 +126,9 @@ For details about previous conferences please check the [Previous Workshops]({{ 
      alt_text="Boehringer Ingelheim"
      url="https://www.boehringer-ingelheim.com"
      name="Boehringer Ingelheim" %}
+
+   {% include logo_card.html
+   logo_src="assets/images/sponsors/Jnj.png"
+   alt_text="Janssen"
+   url="https://www.jnj.com/"
+   name="Janssen Pharmaceuticals" %}
