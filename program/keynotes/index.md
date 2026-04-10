@@ -27,6 +27,26 @@ We are excited to announce our keynote speaker for the 2026 workshop.
     </div>
 </div>
 
+<div class="speaker-card">
+    <div class="speaker-image-container">
+        <img src="{{ site.baseurl }}/assets/images/Prof_Jon_Essex_3.jpg" alt="Jon Essex" class="speaker-image">
+    </div>
+    <div class="speaker-details">
+        <div class="speaker-header">
+            <h2 class="speaker-name">Jon Essex</h2>
+            <p class="speaker-role">Professor, University of Southampton</p>
+        </div>
+        
+        <div class="talk-section">
+            <div class="talk-label">Talk Title</div>
+            <h3 class="talk-title">Grand Canonical Simulation Methods in Structure-Based Drug Design</h3>
+        </div>
+        
+        <div class="speaker-bio">
+            Jonathan Essex obtained his undergraduate and D.Phil. degrees from the University of Oxford, working with Prof Graham Richards. He took up an SERC/NATO Postdoctoral Fellowship in the group of Prof Bill Jorgensen at Yale University in 1992. In 1994 he returned to the UK to the University of Southampton as a Royal Society University Research Fellow, where he has remained ever since. He was appointed Lecturer in 1997, Senior Lecturer in 2001, Reader in 2005 and to a Personal Chair in 2007. His research involves the development and application of classical molecular simulation approaches to biological systems, with a particular interest in binding free energy calculations. He collaborates extensively with the pharmaceutical industry.
+        </div>
+    </div>
+</div>
 
 <!--
 <div class="speaker-card">
