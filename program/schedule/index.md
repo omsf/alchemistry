@@ -67,7 +67,7 @@ table tr:nth-child(even) {
 
 | Time | Speaker | Title |
 |------|---------|-------|
-| 11:00 | Joshua Horton | Exploring the sensitivity of alchemical methods to force field |
+| 11:00 | Justina Ratkeviciute | Improving Alchemical Binding Free Energy Calculations Using Fully Adaptive Simulated Tempering (FAST) |
 | 11:25 | Adam Baskerville | Binding Free Energies from Following Ligands on the Way Out |
 | 11:50 | <span class="invited-name">Narjes Ansari</span> | <span class="invited-name">Lambda-ABF-OPES: A Robust Framework for Absolute and Relative Binding Free Energy Calculations</span> |
 | 12:15 | | FLASH POSTER PRESENTATIONS |
@@ -124,7 +124,7 @@ table tr:nth-child(even) {
 | Time | Speaker | Title |
 |------|---------|-------|
 | 14:10 | <span class="keynote-name">Jonathan Essex</span> | <span class="keynote-name">Grand Canonical Simulation Methods in Structure-Based Drug Design</span> |
-| 15:00 | <span class="invited-name">Hannah Baumann</span> | <span class="invited-name">Recent Advances in OpenFE: From Workflows to Multi-Method Alchemical Networks</span> |
+| 15:00 | <span class="invited-name">Joshua Horton</span> | <span class="invited-name">Recent Advances in OpenFE: From Workflows to Multi-Method Alchemical Networks</span> |
 | 15:25 | <span class="invited-name">Willem Jespers</span> | <span class="invited-name">Doing More with Less: Accurate and Scalable Ligand Free Energy Calculations by Focusing on the Binding Site</span> |
 | 15:50 | | *Break (30 min)* |
 
