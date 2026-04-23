@@ -169,3 +169,9 @@ table tr:nth-child(even) {
    alt_text="Apheris"
    url="https://www.apheris.com/"
    name="Apheris" %}
+
+   {% include logo_card.html
+   logo_src="../../assets/images/sponsors/AstraZeneca.svg"
+   alt_text="AstraZeneca"
+   url="https://www.astrazeneca.com/"
+   name="AstraZeneca" %}
