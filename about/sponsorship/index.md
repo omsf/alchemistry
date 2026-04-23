@@ -3,16 +3,17 @@ layout: page
 title: Sponsorship
 ---
 
-# Sponsorship through Donations
-If you are interested in sponsoring directly please use the link below:
+# Donations
+If you are interested in sponsoring directly please use the donation link below. Donations are tax-deductible but don't include complimentary workshop seats. If you are interested in complimentary seats see the Sponsorship Tiers
+
 
 <div class="button-container">
-  <a href="https://www.zeffy.com/en-US/donation-form/donate-to-alchemistry" class="btn btn-primary" target="_blank">Sponsor the Workshop</a>
+  <a href="https://www.zeffy.com/en-US/donation-form/donate-to-alchemistry" class="btn btn-primary" target="_blank">Donate</a>
 </div>
 
 # Sponsorship Tiers
 
-If you are interested in sponsoring the workshop please get in touch with any member of the organizing committee or email us at <script type="text/javascript">
+If you are interested in sponsoring and participating in the workshop please get in touch with any member of the organizing committee or email us at <script type="text/javascript">
   var user = "alchemistry";
   var domain = "omsf.io";
   document.write('<a href="mailto:' + user + '@' + domain + '" style="color: #ef4444; font-weight: bold; text-decoration: underline;">' + user + '@' + domain + '</a>');
