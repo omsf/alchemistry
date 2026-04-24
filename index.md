@@ -144,3 +144,9 @@ For details about previous conferences please check the [Previous Workshops]({{ 
    alt_text="AstraZeneca"
    url="https://www.astrazeneca.com/"
    name="AstraZeneca" %}
+
+   {% include logo_card.html
+   logo_src="assets/images/sponsors/Astex.png"
+   alt_text="Astex Pharmaceuticals"
+   url="https://astx.com/"
+   name="Astex Pharmaceuticals" %}
