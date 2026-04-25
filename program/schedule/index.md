@@ -88,7 +88,7 @@ table tr:nth-child(even) {
 |------|---------|-------|
 | 16:20 | Márton Vass | No Structure? No Problem: Just Have Some TEA with FEP! |
 | 16:45 | Michael Shirts | Mapping between Boltzmann distributions: from analytical to machine-learned mappings |
-| 17:10 | <span class="invited-name">Antonia Mey</span> | <span class="invited-name">TBD</span> |
+| 17:10 | <span class="invited-name">Jasmin Guven</span> | <span class="invited-name">Methods for alchemical free energy calculations with betalactamase inhibitors</span> |
 | 17:35 | | *Poster session (1h 15min)\** |
 | 18:50 | | End of the Day |
 | 19:30 | | *Guided City Tour* |
