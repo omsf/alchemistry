@@ -62,7 +62,7 @@ table tr:nth-child(even) {
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
 
   {% include logo_card.html
-     logo_src="../../archive/2026/logos/Achira.png"
+     logo_src="../../assets/images/sponsors/Achira.svg"
      alt_text="Tandem AI"
      url="https://achira.ai"
      name="Achira" %}
