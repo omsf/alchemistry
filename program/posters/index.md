@@ -114,3 +114,4 @@ table tr:nth-child(even) {
 | 69 | Ernestas Urniežius | Vilnius University |
 | 70 | Iván Pulido | Memorial Sloan Kettering Cancer Center |
 | 71 | Sukrit Singh | Memorial Sloan Kettering Cancer Center |
+| 72 | Tatjana Braun | Schrodinger | 
