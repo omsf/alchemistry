@@ -31,7 +31,7 @@ For details about previous conferences please check the [Previous Workshops]({{ 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
 
   {% include logo_card.html
-     logo_src="assets/images/sponsors/Achira.svg"
+     logo_src="assets/images/sponsors/Achira.png"
      alt_text="Tandem AI"
      url="https://achira.ai"
      name="Achira" %}
