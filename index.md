@@ -37,7 +37,7 @@ For details about previous conferences please check the [Previous Workshops]({{ 
      name="Achira" %}
 
   {% include logo_card.html
-     logo_src="archive/2026/logos/400px-Cresset.png"
+     logo_src="assets/images/sponsors/Cresset.png"
      alt_text="Cresset Group"
      url="https://cresset-group.com"
      name="Cresset Group" %}

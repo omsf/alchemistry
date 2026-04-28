@@ -68,7 +68,7 @@ table tr:nth-child(even) {
      name="Achira" %}
 
   {% include logo_card.html
-     logo_src="../../archive/2026/logos/400px-Cresset.png"
+     logo_src="../../assets/images/sponsors/Cresset.png"
      alt_text="Cresset Group"
      url="https://cresset-group.com"
      name="Cresset Group" %}
