@@ -205,6 +205,19 @@ title: Organizing Committee
       <a href="https://www3.mpibpc.mpg.de/groups/de_groot/index.html" title="website"><i class="fas fa-globe"></i></a>
     </div>
   </div>
+
+  <div class="committee-card">
+    <img src="{{ '/about/committee/photos/Alzbeta.JPG' | relative_url }}" alt="Member Name" class="member-photo">
+    <div class="member-name">Dr. Alzbeta Kubincova</div>
+    <div class="member-role">University of California Irvine</div>
+    <div class="member-bio">
+      Alžbeta Kubincová is a postdoc in David Mobley's lab at the University of California, Irvine. Her research interest include free-energy calculations and active learning strategies for drug discovery.
+    </div>
+    <div class="member-links">
+      <a href="https://www.linkedin.com/in/al%C5%BEbeta-kubincov%C3%A1/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
 </div>
 
 ## Website Lead
