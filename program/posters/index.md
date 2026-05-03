@@ -5,7 +5,7 @@ title: Posters
 
 # Posters
 
-📕 [**Download the Book of Abstracts (PDF)**](/assets/book_of_abstracts.pdf)
+📕 [**Download the Book of Abstracts (PDF)**]({{ '/assets/book_of_abstracts.pdf' | relative_url }})
 
 <style>
 table {
