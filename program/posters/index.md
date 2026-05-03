@@ -43,7 +43,7 @@ table tr:nth-child(even) {
 | 1 | Albert Ortega Bartolomé | Institut de Química avançada de Catalunya (CSIC) | NEMAT: An Automated Non-Equilibrium Free-Energy Framework for Predicting Ligand Affinity in Membrane Proteins |
 | 2 | Alexandre Blanco-González | MRC - Laboratory of Molecular Biology | Training a force field for proteins and small molecules from scratch |
 | 3 | Alyssa Travitz | Open Free Energy, OMSF | Open Free Energy: An Ecosystem for Open Source Alchemy |
-| 4 | Anna Katharina Picha | University of Vienna | Anchor-Based Alchemical Transformations using Neural Network Potentials |
+| 4 | Anna Katharina Picha | University of Vienna | Dual-coordinate Alchemical Transformations Using Machine-Learned Interatomic Potentials |
 | 5 | Audrius Kalpokas | University of Edinburgh | Modelling Macrocyclic Peptide PCSK9 Inhibitors with Alchemical Free Energy Calculations |
 | 6 | Benjamin Kaminow | Memorial Sloan Kettering Cancer Center | Exploring the relevance of structure-based machine learning in binding affinity predictions |
 | 7 | Blanca Díaz Canals | Universitat de Barcelona | Molecular glues in drug design: enhancing protein-protein interaction stability for innovative cancer therapies |
