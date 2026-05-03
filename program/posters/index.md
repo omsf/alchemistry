@@ -102,7 +102,7 @@ table tr:nth-child(even) {
 | 55 | Anna M. Herz | Boehringer Ingelheim | Optimising Potency Predictions: When and How FEP Data Improves Machine Learning Models |
 | 56 | Katerina Barmpidi | University of Barcelona | Decoding Isoform Selectivity in AMPK via Free Energy Calculations |
 | 57 | Leon Persch | Johannes Gutenberg-University Mainz | Folding Free Energy Perturbation Reveals a Critical Role of the PGLE Motif in Vreteno ZNF Stability |
-| 58 | Enrico Ruijsenaars | ETH Zurich | Scalable Multistate Free Energy Calculations with automated Network Design |
+| 58 | Ivan Manoza | QMUL | Computational assay of hERG ion permeation, small-molecule modulation, and binding free energies |
 | 59 | Ravy Leon Foun Lin | AUDENSIEL & Université Paris Cité | N-Glycosylation Dynamics and Conformational Free Energy Landscapes in Full-Length IgG2 & IgG4 Monoclonal Antibodies: An All-Atom Molecular Dynamics Investigation |
 | 60 | Lorenzo Tulli | University of Bristol | Cancer-associated mutations reconfigure dynamical responses in EGFR kinase |
 | 61 | Jasmin Güven | University of Bristol | Towards improved binding affinity calculations for metalloproteins with meze|

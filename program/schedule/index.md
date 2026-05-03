@@ -161,7 +161,7 @@ table tr:nth-child(even) {
 | 9:00 | <span class="invited-name">Joseph Bluck</span> | <span class="invited-name">The application of free energy methods at Bayer</span> |
 | 9:25 | <span class="invited-name">Stephan Ehrlich</span> | <span class="invited-name">From pilot to practice: Embedding FEP into DMTA cycles for prospective decision-making at UCB</span> |
 | 9:50 | <span class="invited-name">David Pearlman</span> | <span class="invited-name">Addressing Electronic Complexity in FEP: Scaling QM/MM and Physics-Informed ML for Predictive Lead Optimization</span> |
-| 10:15 | Kenneth Goossens | Physics-based and LQM-Driven Drug Discovery Applied to Neurodegeneration Drug Discovery |
+| 10:15 | Kenneth Goossens | Scaling Physics-based methods with AI for Lysosomal P-type ATPase Discovery |
 | 10:40 | | *Break (30 min)* |
 
 ### Session 10: High-Throughput FEP & Scalable Workflows
