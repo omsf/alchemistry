@@ -53,6 +53,7 @@ table tr:nth-child(even) {
 ## Day 1
 
 ### Session 1: Advanced Sampling and Algorithmic Innovations
+#### Session Chairs: Anna H Herz, Carolina Estarellas
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -64,6 +65,7 @@ table tr:nth-child(even) {
 | 10:30 | | *Break (30 min)* |
 
 ### Session 2: Advanced Sampling and Algorithmic Innovations
+#### Session Chairs: Aleix Quintana, Carolina Estarellas
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -74,6 +76,7 @@ table tr:nth-child(even) {
 | 12:40 | | *Lunch (1h 30min)* |
 
 ### Session 3: Integrating Physics-Based Modeling and Machine Learning
+#### Session Chairs: Ernestas Urniežius, Jenke Scheen
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -83,6 +86,7 @@ table tr:nth-child(even) {
 | 15:50 | | *Break (30 min)* |
 
 ### Session 4: Integrating Physics-Based Modeling and Machine Learning
+#### Session Chairs: Emily Landwehr, Jenke Scheen
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -98,6 +102,7 @@ table tr:nth-child(even) {
 ## Day 2
 
 ### Session 5: Proteins, Peptides & Novel Modalities
+#### Session Chairs: Finlay Clark, Jordi Juárez-Jiménez
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -109,6 +114,7 @@ table tr:nth-child(even) {
 | 10:15 | | *Break (30 min)* |
 
 ### Session 6: Proteins, Peptides & Novel Modalities
+#### Session Chairs: Sarah Stieglitz, Jordi Juárez-Jiménez
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -120,6 +126,7 @@ table tr:nth-child(even) {
 | 12:40 | | *Lunch (1h 30min)* |
 
 ### Session 7: High-Throughput FEP and Scalable Workflows
+#### Session Chairs: Varbina Ivanova, Dmitry Lupyan
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -129,6 +136,7 @@ table tr:nth-child(even) {
 | 15:50 | | *Break (30 min)* |
 
 ### Session 8: High-Throughput FEP and Scalable Workflows
+#### Session Chairs: Chenggong Hui, Dmitry Lupyan
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -144,6 +152,7 @@ table tr:nth-child(even) {
 ## Day 3
 
 ### Session 9: Industrial Applications and Development
+#### Session Chairs: Alzbeta Kubincova, Salomé Llabrés
 
 | Time | Speaker | Title |
 |------|---------|-------|
@@ -156,6 +165,7 @@ table tr:nth-child(even) {
 | 10:40 | | *Break (30 min)* |
 
 ### Session 10: High-Throughput FEP & Scalable Workflows
+#### Session Chairs: Emily Landwehr, Salomé Llabrés
 
 | Time | Speaker | Title |
 |------|---------|-------|
