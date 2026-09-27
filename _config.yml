@@ -51,6 +51,8 @@ conference:
             relative_url: /about/sponsorship/
       - name: Previous Workshops
         menu:
+          - name: Barcelona 2026
+            relative_url: /archive/2026/
           - name: Boston 2025
             relative_url: /archive/2025/
           - name: Leiden 2024
