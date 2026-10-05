@@ -53,10 +53,8 @@ table tr:nth-child(even) {
 # Description
 The 2026 Free Energy Workshop, hosted by the Alchemistry Organization Committee and the OMSF, took place from May 4-6th at the Auditorium of the Universitat Pompeu Fabra (UPF) on the Ciutadella campus in Barcelona, Spain. The workshop focuses on free energy methods in computational chemistry and drug design and welcomed researchers from around the globe.
 
-<!-- TODO: add group_photo.png to archive/2026/ and uncomment
 ## Group Photo
-![A photo of the attendees.](group_photo.png "Group Photo, Barcelona 2026")
--->
+![A photo of the attendees.](group_photo.jpg "Group Photo, Barcelona 2026")
 
 # Organization Committee
 * [Dr. Jordi Juárez-Jiménez](https://www.linkedin.com/in/jordi-ju%C3%A1rez-jim%C3%A9nez-45a20961/) — University of Barcelona
@@ -71,10 +69,8 @@ The 2026 Free Energy Workshop, hosted by the Alchemistry Organization Committee 
 * [Dr. Alzbeta Kubincova](https://www.linkedin.com/in/al%C5%BEbeta-kubincov%C3%A1/) — University of California Irvine
 * [Aakankschit (AK) Nandkeolyar](https://www.linkedin.com/in/aakankschit-nandkeolyar-838b0b126/) — Ph.D. Candidate, University of California Irvine
 
-<!-- TODO: add organizers.png to archive/2026/ and uncomment
 ## Organizer's Photo
-![A photo of the organizers of the workshop.](organizers.png "Organizers, Barcelona 2026")
--->
+![A photo of the organizers of the workshop.](organizers.jpg "Organizers, Barcelona 2026")
 
 # Keynote Speakers
 
@@ -324,15 +320,13 @@ The 2026 Free Energy Workshop, hosted by the Alchemistry Organization Committee 
 | 71 | Sukrit Singh | Memorial Sloan Kettering Cancer Center | More protein-ligand data are needed for AlphaFold-like models to enable drug discovery |
 | 72 | Tatjana Braun | Schrodinger | Accurate in silico prediction of pH-dependent antibody binding affinities using robust physics-based methods |
 
-<!-- TODO: add poster winner photos to archive/2026/ and fill in names/titles, then uncomment
 # Poster Session Winners
 
-| [**Winner 1 Name**](https://www.linkedin.com/) | [**Winner 2 Name**](https://www.linkedin.com/) |
+| **Anna M. Herz** | **Chenggong Hui** |
 |:---:|:---:|
-| *"Poster title"* | *"Poster title"* |
-| ![Winner 1 receiving poster prize](poster_winner1.png) | ![Winner 2 receiving poster prize](poster_winner2.png) |
-| *Sponsor-sponsored Poster Prize* | *Sponsor-sponsored Poster Prize* |
--->
+| *"Optimising Potency Predictions: When and How FEP Data Improves Machine Learning Models"* | *"Enhancing Relative Binding Free Energy Calculation with Grand Canonical Monte Carlo, Water Swap Monte Carlo, and Replica Exchange Solute Tempering"* |
+| ![Anna M. Herz receiving poster prize](poster_winner1.jpg) | ![Chenggong Hui receiving poster prize](poster_winner2.jpg) |
+| *MODSIM Pharma-sponsored Poster Prize Awarded to Dr. Anna Herz by Dr. Willem Jespers* | *OMSF-sponsored Poster Prize Awarded to Dr. Chenggong Hui by Dr. Jenke Scheen* |
 
 # We Thank Our Corporate Sponsors
 
