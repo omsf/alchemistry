@@ -44,8 +44,12 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
-                    <h3>{{ site.conference.name }}</h3>
-                    <p>{{ site.conference.date }} | {{ site.conference.location }}</p>
+                    <img src="{{ '/assets/images/fe_workshop_logo_white.png' | relative_url }}"
+                        alt="Free Energy Workshop logo" class="footer-logo">
+                    <div class="footer-text">
+                        <h3>{{ site.conference.name }}</h3>
+                        <p>{{ site.conference.date }} | {{ site.conference.location }}{% if site.conference.venue %} · {{ site.conference.venue }}{% endif %}</p>
+                    </div>
                 </div>
                 <div class="footer-social">
                     <a href="https://www.youtube.com/@the-Free-Energy-Workshop" target="_blank" class="social-icon"
@@ -53,7 +57,7 @@
                     <a href="https://www.linkedin.com/company/free-energy-workshop/" target="_blank" class="social-icon"
                         title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://bsky.app/profile/feworkshop.bsky.social" target="_blank" class="social-icon"
-                        title="Bluesky"><i class="fas fa-cloud"></i></a>
+                        title="Bluesky"><i class="fab fa-bluesky"></i></a>
                     <a href="mailto:alchemistry@omsf.io" class="social-icon" title="Email"><i
                             class="fas fa-envelope"></i></a>
                 </div>

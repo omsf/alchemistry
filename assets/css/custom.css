@@ -152,6 +152,165 @@ a {
     gap: 1rem;
 }
 
+/* Homepage hero: text on the left, next workshop's flyer on the right */
+.hero-section .container.hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero-grid .hero-content {
+    max-width: none;
+}
+
+.hero-brand {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.hero-logo {
+    height: 120px;
+    width: auto;
+    flex-shrink: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Wide Δ wordmark sits on its own line above the title */
+.hero-brand:has(.hero-logo-delta) {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-logo.hero-logo-delta {
+    height: 84px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.hero-grid .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    line-height: 1.15;
+}
+
+.hero-grid .hero-subtitle {
+    margin-bottom: 1.5rem;
+}
+
+.next-workshop {
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.75rem;
+}
+
+.next-workshop-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.85;
+    margin-bottom: 0.35rem;
+}
+
+.next-workshop-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    font-size: 1.05rem;
+}
+
+.next-workshop-row i {
+    width: 1.1em;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.next-workshop-dates {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.hero-actions {
+    flex-wrap: wrap;
+}
+
+.hero-flyer-link {
+    display: block;
+}
+
+.hero-flyer {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.45);
+    transition: transform 0.3s ease;
+}
+
+.hero-flyer-link:hover .hero-flyer {
+    transform: translateY(-4px);
+}
+
+@media (max-width: 900px) {
+    .hero-section .container.hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .hero-brand,
+    .hero-brand:has(.hero-logo-delta) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .next-workshop-row {
+        justify-content: center;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-section {
+        padding: 2.5rem 0;
+    }
+
+    .hero-logo {
+        height: 96px;
+    }
+
+    .hero-logo.hero-logo-delta {
+        height: 64px;
+    }
+
+    .hero-grid .hero-title {
+        font-size: 1.75rem;
+    }
+
+    /* Let the icon flow with the text when the venue line wraps */
+    .next-workshop-row {
+        display: block;
+    }
+
+    .next-workshop-row i {
+        margin-right: 0.4rem;
+    }
+
+    .btn-premium {
+        font-size: 1rem;
+    }
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -273,6 +432,24 @@ img {
     gap: 2rem;
 }
 
+.footer-info {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.footer-logo {
+    height: 56px;
+    width: auto;
+    flex-shrink: 0;
+    padding-right: 1.25rem;
+    border-right: 1px solid #374151;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
 .footer-info h3 {
     color: white;
     margin: 0 0 0.5rem 0;
@@ -351,6 +528,15 @@ img {
     .footer-content {
         flex-direction: column;
         text-align: center;
+    }
+
+    .footer-info {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        padding-right: 0;
+        border-right: none;
     }
 }
 

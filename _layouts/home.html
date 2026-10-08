@@ -4,14 +4,28 @@ layout: default
 
 <!-- Hero Section -->
 <header class="hero-section">
-    <div class="container">
+    <div class="container hero-grid">
         <div class="hero-content">
-            <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1rem;">
-                <img src="{{ site.baseurl }}/assets/images/logo_new.png" alt="Alchemistry Logo"
-                    style="height: 250px; width: auto; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                <h1 class="hero-title" style="margin-bottom: 0;">{{ page.title }}</h1>
+            <div class="hero-brand">
+                <img src="{{ site.baseurl }}/assets/images/fe_workshop_logo_white.png" alt="Free Energy Workshop logo" class="hero-logo hero-logo-delta">
+                <h1 class="hero-title">{{ page.title }}</h1>
             </div>
             <p class="hero-subtitle">{{ site.description }}</p>
+
+            {% if page.next_workshop %}
+            <div class="next-workshop">
+                <span class="next-workshop-label">Next workshop</span>
+                <div class="next-workshop-row">
+                    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                    <span class="next-workshop-dates">{{ page.next_workshop.dates }}</span>
+                </div>
+                <div class="next-workshop-row">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <span>{{ page.next_workshop.location }}{% if page.next_workshop.venue %} · {{ page.next_workshop.venue }}{% endif %}</span>
+                </div>
+            </div>
+            {% endif %}
+
             <div class="hero-actions">
                 <a href="https://www.zeffy.com/en-US/ticketing/register-for-the-2026-free-energy-workshop"
                     class="btn btn-premium btn-light">Registration</a>
@@ -20,10 +34,16 @@ layout: default
                 <a href="{{ '/news/' | relative_url }}" class="btn btn-premium btn-outline">Latest Updates</a>
             </div>
         </div>
+
+        {% if page.next_workshop.flyer %}
         <div class="hero-visual">
-            <!-- Abstract visual or logo -->
-            <div class="blob"></div>
+            <a href="{{ page.next_workshop.flyer | relative_url }}" target="_blank" class="hero-flyer-link"
+                title="Open the full-size flyer">
+                <img src="{{ page.next_workshop.flyer | relative_url }}" alt="{{ page.next_workshop.flyer_alt }}"
+                    class="hero-flyer">
+            </a>
         </div>
+        {% endif %}
     </div>
 </header>
 

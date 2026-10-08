@@ -1,6 +1,13 @@
 ---
 layout: home
 title: Alchemistry Workshop in Free Energy Methods for Drug Design
+# Shown in the homepage hero; update these each year
+next_workshop:
+  flyer: /assets/FE_workshop_2027.jpg
+  flyer_alt: "2027 Workshop on Free Energy Methods in Drug Design, May 3-5 2027, San Francisco, Merck Research Laboratories"
+  dates: "May 3–5, 2027"
+  location: "San Francisco, CA"
+  venue: "Merck Research Laboratories"
 ---
 
 {:.intro-text}
@@ -8,9 +15,8 @@ title: Alchemistry Workshop in Free Energy Methods for Drug Design
 <br>
 For the latest news please see the [Updates page]({{ '/news/' | relative_url }}){: .intro-link}.
 <br>
-For details about previous conferences please check the [Previous Workshops]({{ '/Previous Workshops/' | relative_url }}){: .intro-link}.
+For details about previous conferences please check the [Previous Workshops]({{ '/archive/2026/' | relative_url }}){: .intro-link}.
 
-![Free Energy Workshop]({{ site.baseurl }}/assets/FE_workshop_2026.png){: .hero-image}
 
 {:.center-container}
 ### Important Dates
@@ -18,135 +24,8 @@ For details about previous conferences please check the [Previous Workshops]({{ 
 
 | Event | Date |
 |-------|------|
-| Conference Dates | 4-6 May, 2026 |
-| Registration | Open |
-| Abstract Submission | 28 February 2026 |
-| Oral Contribution notification | 27 March 2026 |
+| Conference Dates | 3-5 May, 2027 |
+| Registration | To be announced |
+| Abstract Submission | To be announced |
+| Oral Contribution notification | To be announced |
 {:.dates-table}
-
-{:.section-title}
-# We Thank Our Corporate Sponsors
-
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; align-items: stretch;">
-
-  {% include logo_card.html
-     logo_src="assets/images/sponsors/Achira.png"
-     alt_text="Tandem AI"
-     url="https://achira.ai"
-     name="Achira" %}
-
-  {% include logo_card.html
-     logo_src="assets/images/sponsors/Cresset.png"
-     alt_text="Cresset Group"
-     url="https://cresset-group.com"
-     name="Cresset Group" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/400px-Schrodinger.png"
-     alt_text="Schrödinger"
-     url="https://www.schrodinger.com"
-     name="Schrödinger Inc." %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/400px-Openbiosim.png"
-     alt_text="OpenBioSim"
-     url="https://www.openbiosim.org"
-     name="OpenBioSim" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/Kvantify.png"
-     alt_text="Kvantify"
-     url="https://www.kvantify.com"
-     name="Kvantify" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/VeraChem.png"
-     alt_text="VeraChem"
-     url="https://www.verachem.com"
-     name="VeraChem" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/400px-Openeye.png"
-     alt_text="OpenEye/Cadence"
-     url="https://www.eyesopen.com"
-     name="OpenEye/Cadence" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/NostrumBiodiscovery.png"
-     alt_text="NostrumBiodiscovery"
-     url="https://www.nostrumbiodiscovery.com"
-     name="NostrumBiodiscovery" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/UCB.png"
-     alt_text="UCB"
-     url="https://www.ucb.com/"
-     name="UCB" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/Sandbox-AQ.png"
-     alt_text="Sandbox AQ"
-     url="https://www.sandboxaq.com"
-     name="Sandbox AQ" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/Aqemia.jpg"
-     alt_text="Aqemia"
-     url="https://aqemia.com/"
-     name="Aqemia" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/anew_tx.png"
-     alt_text="Anew Therapeutics"
-     url="https://anewbt.com/"
-     name="Anew Therapeutics" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/300px-Modsim.jpeg"
-     alt_text="MODSIM Pharma"
-     url="https://modsim-pharma.com"
-     name="MODSIM Pharma" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/pharmacelera.png"
-     alt_text="Pharmacelera"
-     url="https://pharmacelera.com/"
-     name="Pharmacelera" %}
-
-  {% include logo_card.html
-     logo_src="archive/2026/logos/QSimulate.png"
-     alt_text="QSimulate"
-     url="https://qsimulate.com"
-     name="QSimulate"
-     height="225px" %}
-
-  {% include logo_card.html
-     logo_src="assets/images/sponsors/Boehringer_Ingelheim.png"
-     alt_text="Boehringer Ingelheim"
-     url="https://www.boehringer-ingelheim.com"
-     name="Boehringer Ingelheim" %}
-
-   {% include logo_card.html
-   logo_src="assets/images/sponsors/Jnj.png"
-   alt_text="Janssen"
-   url="https://www.jnj.com/"
-   name="Janssen Pharmaceuticals" %}
-
-   {% include logo_card.html
-   logo_src="assets/images/sponsors/Apheris.png"
-   alt_text="Apheris"
-   url="https://www.apheris.com/"
-   name="Apheris" %}
-
-   {% include logo_card.html
-   logo_src="assets/images/sponsors/AstraZeneca.svg"
-   alt_text="AstraZeneca"
-   url="https://www.astrazeneca.com/"
-   name="AstraZeneca" %}
-
-   {% include logo_card.html
-   logo_src="assets/images/sponsors/Astex.png"
-   alt_text="Astex Pharmaceuticals"
-   url="https://astx.com/"
-   name="Astex Pharmaceuticals" %}
