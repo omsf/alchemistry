@@ -54,10 +54,9 @@ N/A for relative submissions.
 
 ## Getting help
 
-Questions about the science, the data, or submission mechanics are welcome in the
-**#🦟alchemistry-2027-challenge** channel on [our Discord](https://discord.gg/fC3XGwEJW).
-Automated validation receipts for your submissions are posted to
-**#🦟alchemistry-2027-challenge-submissions**.
+Questions about the science, the data, or submission mechanics are welcome on
+[our Discord](https://discord.gg/fC3XGwEJW) or by email to
+[alchemistry@omsf.io](mailto:alchemistry@omsf.io).
 
 ## Timeline
 
