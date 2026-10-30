@@ -10,13 +10,10 @@ A single notebook that walks the whole submission path end to end: downloading t
 set, looking at what you have been given, generating example predictions, writing
 them in the required format, validating the file locally, and submitting it.
 
-<p>
-  <a href="https://github.com/omsf/alchemistry/blob/main/blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb">
-    <strong>View the tutorial notebook on GitHub</strong></a>
-  &nbsp;·&nbsp;
-  <a href="{{ '/blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb' | relative_url }}" download>
-    download the <code>.ipynb</code></a>
-</p>
+<div class="button-container">
+  <a href="{{ '/blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb' | relative_url }}" class="btn btn-primary" download>
+    <i class="fas fa-download" aria-hidden="true"></i> Download the tutorial notebook</a>
+</div>
 
 It runs locally in a few minutes and needs only `pandas`, `numpy`, `matplotlib`,
 `rdkit`, `huggingface_hub` and `ipywidgets`:

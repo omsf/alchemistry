@@ -53,10 +53,9 @@ challenge:
       logo: /assets/images/sponsors/Rowan.svg
   # Set to the Space's direct URL (https://<owner>-<space>.hf.space) to embed the leaderboard on this page
   leaderboard_embed: ""
-  # Notebook shown in the Tutorial section, with the outputs saved in it
+  # Notebook shown and offered for download in the Tutorial section, with the outputs saved in it
   tutorial:
     notebook: /blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb
-    github: https://github.com/omsf/alchemistry/blob/main/blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb
   # Use `file:` instead of `pdb:` for a structure kept in the repo
   structure:
     pdb: 9T4P
@@ -102,7 +101,11 @@ Relative (edge-based) methods also submit the ΔΔG for each edge of their pertu
 
 The tutorial notebook walks through a complete submission: downloading the test set, exploring the compounds and the reference structure, writing example predictions in the required format and submitting them. It does not run a free energy calculation. It runs locally in a few minutes and needs only `pandas`, `numpy`, `matplotlib`, `rdkit`, `huggingface_hub`, `pyarrow` and `ipywidgets`.
 
-{% include notebook_viewer.html file=page.challenge.tutorial.notebook github=page.challenge.tutorial.github %}
+<div class="button-container">
+    <a href="{{ page.challenge.tutorial.notebook | relative_url }}" class="btn btn-primary" download><i class="fas fa-download" aria-hidden="true"></i> Download the tutorial notebook</a>
+</div>
+
+{% include notebook_viewer.html file=page.challenge.tutorial.notebook %}
 
 ## Challenge target
 
