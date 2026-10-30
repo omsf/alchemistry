@@ -1,0 +1,158 @@
+{% comment %}
+Jupyter notebook rendered in the browser from the .ipynb in the repo, with its saved outputs.
+Nothing is executed, so re-run and save the notebook to update what is shown here.
+  file    - the notebook in the repo, e.g. /blind_challenges/2027/tutorial/tutorial.ipynb
+  github  - optional link to the notebook on GitHub
+  caption - text under the viewer
+  id      - element id, only needed when a page has more than one viewer
+{% endcomment %}
+{% assign viewer_id = include.id | default: 'notebook-viewer' %}
+{% assign notebook_src = include.file | relative_url %}
+<figure class="notebook-viewer" id="{{ viewer_id }}">
+    <div class="notebook-viewer-body">
+        <div class="notebook-viewer-status">Loading notebook…</div>
+    </div>
+    <div class="notebook-viewer-controls">
+        <button type="button" data-action="expand" aria-expanded="false" hidden><i class="fas fa-chevron-down" aria-hidden="true"></i> <span>Show the whole notebook</span></button>
+        <a href="{{ notebook_src }}" download><i class="fas fa-download" aria-hidden="true"></i> Download .ipynb</a>
+        {% if include.github %}
+        <a href="{{ include.github }}" target="_blank" rel="noopener">View on GitHub <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        {% endif %}
+    </div>
+    {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var figure = document.getElementById('{{ viewer_id }}');
+    var body = figure.querySelector('.notebook-viewer-body');
+    var status = figure.querySelector('.notebook-viewer-status');
+    var expand = figure.querySelector('[data-action="expand"]');
+    var language = 'python';
+
+    function fail() {
+        status.textContent = 'The notebook could not be loaded. Download it with the link below.';
+    }
+
+    if (!window.marked) { fail(); return; }
+
+    // Sources and outputs are saved either as one string or as a list of lines
+    function text(value) {
+        return Array.isArray(value) ? value.join('') : (value || '');
+    }
+
+    function stripAnsi(value) {
+        return value.replace(/\x1b\[[0-9;]*m/g, '');
+    }
+
+    function element(tag, className) {
+        var node = document.createElement(tag);
+        if (className) node.className = className;
+        return node;
+    }
+
+    function highlight(code) {
+        if (window.hljs) window.hljs.highlightElement(code);
+    }
+
+    function preformatted(value, className) {
+        var pre = element('pre', className);
+        pre.textContent = stripAnsi(value);
+        return pre;
+    }
+
+    function markdown(source) {
+        var div = element('div', 'notebook-markdown');
+        div.innerHTML = marked.parse(source);
+        // The page has its own h1 and h2 sections, so notebook headings start at h3
+        div.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function (heading) {
+            var demoted = document.createElement('h' + Math.min(Number(heading.tagName[1]) + 2, 6));
+            demoted.innerHTML = heading.innerHTML;
+            heading.replaceWith(demoted);
+        });
+        div.querySelectorAll('a[href^="http"]').forEach(function (link) {
+            link.target = '_blank';
+            link.rel = 'noopener';
+        });
+        div.querySelectorAll('pre code').forEach(highlight);
+        return div;
+    }
+
+    function output(out) {
+        var data = out.data || {};
+        var image = data['image/png'] ? 'png' : data['image/jpeg'] ? 'jpeg' : null;
+        var node;
+
+        if (out.output_type === 'stream') {
+            return preformatted(text(out.text), 'notebook-stream' + (out.name === 'stderr' ? ' is-stderr' : ''));
+        }
+        if (out.output_type === 'error') {
+            return preformatted(out.traceback.join('\n'), 'notebook-stream is-stderr');
+        }
+        if (image) {
+            node = element('img');
+            node.src = 'data:image/' + image + ';base64,' + text(data['image/' + image]).replace(/\s/g, '');
+            node.alt = 'Cell output';
+            return node;
+        }
+        if (data['image/svg+xml'] || data['text/html']) {
+            node = element('div', 'notebook-html');
+            node.innerHTML = text(data['image/svg+xml'] || data['text/html']);
+            return node;
+        }
+        if (data['text/markdown']) return markdown(text(data['text/markdown']));
+        if (data['text/plain']) return preformatted(text(data['text/plain']), 'notebook-stream');
+        return null;
+    }
+
+    function codeCell(cell) {
+        var div = element('div', 'notebook-cell');
+        var pre = element('pre', 'notebook-code');
+        var code = element('code', 'language-' + language);
+        code.textContent = text(cell.source).replace(/\s+$/, '');
+        highlight(code);
+        pre.appendChild(code);
+        div.appendChild(pre);
+
+        var outputs = (cell.outputs || []).map(output).filter(Boolean);
+        if (outputs.length) {
+            var wrap = element('div', 'notebook-outputs');
+            outputs.forEach(function (node) { wrap.appendChild(node); });
+            div.appendChild(wrap);
+        }
+        return div;
+    }
+
+    function render(notebook) {
+        var content = element('div', 'notebook-viewer-content');
+        language = (notebook.metadata.language_info || {}).name || language;
+        notebook.cells.forEach(function (cell) {
+            if (!text(cell.source).trim()) return;
+            if (cell.cell_type === 'markdown') content.appendChild(markdown(text(cell.source)));
+            if (cell.cell_type === 'code') content.appendChild(codeCell(cell));
+        });
+        status.remove();
+        body.appendChild(content);
+        // Only a notebook taller than the collapsed height gets the fade and the expand button
+        figure.classList.add('is-collapsible');
+        expand.hidden = body.scrollHeight <= body.clientHeight;
+        figure.classList.toggle('is-collapsible', !expand.hidden);
+    }
+
+    fetch('{{ notebook_src }}')
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(render)
+        .catch(fail);
+
+    expand.addEventListener('click', function () {
+        var open = this.getAttribute('aria-expanded') !== 'true';
+        this.setAttribute('aria-expanded', open);
+        this.querySelector('span').textContent = open ? 'Collapse' : 'Show the whole notebook';
+        this.querySelector('i').className = 'fas fa-chevron-' + (open ? 'up' : 'down');
+        figure.classList.toggle('is-expanded', open);
+        // After collapsing from far down the notebook, bring its top back into view
+        if (!open && figure.getBoundingClientRect().top < 0) figure.scrollIntoView();
+    });
+});
+</script>

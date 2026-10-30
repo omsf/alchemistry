@@ -1103,8 +1103,9 @@ img {
     border-radius: 16px;
 }
 
-/* 3D structure viewer */
-.structure-viewer {
+/* 3D structure viewer (the notebook viewer below shares its frame and controls) */
+.structure-viewer,
+.notebook-viewer {
     margin: 1.5rem 0 0;
     background: white;
     border: 1px solid #e5e7eb;
@@ -1154,7 +1155,8 @@ img {
     opacity: 1;
 }
 
-.structure-viewer-controls {
+.structure-viewer-controls,
+.notebook-viewer-controls {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1164,7 +1166,8 @@ img {
     border-top: 1px solid #e5e7eb;
 }
 
-.structure-viewer-controls button {
+.structure-viewer-controls button,
+.notebook-viewer-controls button {
     padding: 0.4rem 0.9rem;
     font: inherit;
     font-size: 0.9rem;
@@ -1181,18 +1184,234 @@ img {
     border-color: var(--primary-color);
 }
 
-.structure-viewer-controls a {
+.structure-viewer-controls a,
+.notebook-viewer-controls a {
     margin-left: auto;
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--primary-color);
 }
 
-.structure-viewer figcaption {
+.structure-viewer figcaption,
+.notebook-viewer figcaption {
     padding: 0 1rem 1rem;
     font-size: 0.9rem;
     color: #6b7280;
     background: var(--surface-color);
+}
+
+/* Jupyter notebook viewer */
+.notebook-viewer {
+    scroll-margin-top: 6rem;
+}
+
+.notebook-viewer-body {
+    position: relative;
+    padding: 1.5rem 1.75rem;
+}
+
+.notebook-viewer.is-collapsible .notebook-viewer-body {
+    max-height: 40rem;
+    overflow: hidden;
+}
+
+/* Fade out the cut-off end of the collapsed notebook */
+.notebook-viewer.is-collapsible .notebook-viewer-body::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6rem;
+    background: linear-gradient(rgba(255, 255, 255, 0), white);
+    pointer-events: none;
+}
+
+.notebook-viewer.is-expanded .notebook-viewer-body {
+    max-height: none;
+}
+
+.notebook-viewer.is-expanded .notebook-viewer-body::after {
+    display: none;
+}
+
+.notebook-viewer-status {
+    padding: 3rem 1rem;
+    text-align: center;
+    color: #6b7280;
+}
+
+.notebook-viewer-controls a + a {
+    margin-left: 0;
+}
+
+.notebook-viewer-content > * + * {
+    margin-top: 1rem;
+}
+
+.notebook-markdown > :last-child {
+    margin-bottom: 0;
+}
+
+.notebook-markdown h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+}
+
+.notebook-markdown h4 {
+    margin: 0 0 0.75rem;
+    font-size: 1.25rem;
+    color: var(--primary-dark);
+}
+
+.notebook-markdown h5,
+.notebook-markdown h6 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+}
+
+.notebook-markdown p,
+.notebook-markdown ul,
+.notebook-markdown ol {
+    margin: 0 0 0.75rem;
+}
+
+.notebook-markdown a {
+    color: var(--primary-color);
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.notebook-markdown hr {
+    margin: 2rem 0 1.25rem;
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+.notebook-markdown blockquote {
+    margin: 0 0 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--surface-color);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0 8px 8px 0;
+}
+
+.notebook-viewer pre {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    border-radius: 8px;
+}
+
+.notebook-viewer pre,
+.notebook-viewer code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.notebook-code,
+.notebook-markdown pre {
+    background: var(--surface-color);
+    border: 1px solid #e5e7eb;
+}
+
+.notebook-markdown pre {
+    margin-bottom: 0.75rem;
+}
+
+.notebook-markdown :not(pre) > code {
+    padding: 0.1em 0.35em;
+    font-size: 0.9em;
+    background: #f3f4f6;
+    border-radius: 4px;
+}
+
+/* Outputs hang off a teal rule so they read as belonging to the cell above */
+.notebook-outputs {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid #ccfbf1;
+}
+
+.notebook-outputs > * + * {
+    margin-top: 0.5rem;
+}
+
+.notebook-viewer pre.notebook-stream {
+    padding: 0.25rem 0;
+}
+
+.notebook-viewer pre.is-stderr {
+    padding: 0.5rem 0.75rem;
+    color: #991b1b;
+    background: #fef2f2;
+}
+
+.notebook-outputs img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.notebook-html {
+    overflow-x: auto;
+}
+
+.notebook-viewer table {
+    border: 0;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+/* Markdown tables scroll sideways on narrow screens instead of widening the page */
+.notebook-markdown table {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 0.75rem;
+    overflow-x: auto;
+}
+
+.notebook-viewer th,
+.notebook-viewer td {
+    padding: 0.4rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.notebook-viewer thead th {
+    font-weight: 600;
+    color: var(--primary-dark);
+    background: var(--surface-color);
+}
+
+/* Syntax colours for highlight.js */
+.notebook-viewer .hljs-keyword,
+.notebook-viewer .hljs-literal {
+    font-weight: 600;
+    color: var(--primary-dark);
+}
+
+.notebook-viewer .hljs-string {
+    color: #a16207;
+}
+
+.notebook-viewer .hljs-number {
+    color: #be123c;
+}
+
+.notebook-viewer .hljs-built_in,
+.notebook-viewer .hljs-title {
+    color: #1d4ed8;
+}
+
+.notebook-viewer .hljs-comment,
+.notebook-viewer .hljs-meta {
+    font-style: italic;
+    color: #6b7280;
 }
 
 @media (max-width: 900px) {
@@ -1222,6 +1441,14 @@ img {
 
     .structure-viewer-canvas {
         height: 320px;
+    }
+
+    .notebook-viewer-body {
+        padding: 1rem;
+    }
+
+    .notebook-viewer.is-collapsible .notebook-viewer-body {
+        max-height: 32rem;
     }
 }
 

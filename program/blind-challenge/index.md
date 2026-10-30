@@ -1,7 +1,7 @@
 ---
 layout: challenge
 title: Blind Challenge
-# Everything under `challenge` drives the page header, link cards and 3D viewer.
+# Everything under `challenge` drives the page header, link cards, 3D viewer and tutorial notebook.
 # Leave a url empty ("") to show its button as "Available at launch".
 # The challenge itself (data, submissions, leaderboards, full rules) lives on Hugging Face;
 # this page summarises it and links there. Details below follow the Space's config.py.
@@ -53,6 +53,10 @@ challenge:
       logo: /assets/images/sponsors/Rowan.svg
   # Set to the Space's direct URL (https://<owner>-<space>.hf.space) to embed the leaderboard on this page
   leaderboard_embed: ""
+  # Notebook shown in the Tutorial section, with the outputs saved in it
+  tutorial:
+    notebook: /blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb
+    github: https://github.com/omsf/alchemistry/blob/main/blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb
   # Use `file:` instead of `pdb:` for a structure kept in the repo
   structure:
     pdb: 9T4P
@@ -93,6 +97,12 @@ The challenge is organised by the Alchemistry 2027 committee with ASAP Discovery
 </ol>
 
 Relative (edge-based) methods also submit the ΔΔG for each edge of their perturbation network, and participants are asked to share their predicted poses. The exact file formats are described on the [challenge page](https://huggingface.co/spaces/openadmet/alchemistry-2027-challenge){: .intro-link}.
+
+## Tutorial
+
+The tutorial notebook walks through a complete submission: downloading the test set, exploring the compounds and the reference structure, writing example predictions in the required format and submitting them. It does not run a free energy calculation. It runs locally in a few minutes and needs only `pandas`, `numpy`, `matplotlib`, `rdkit`, `huggingface_hub`, `pyarrow` and `ipywidgets`.
+
+{% include notebook_viewer.html file=page.challenge.tutorial.notebook github=page.challenge.tutorial.github %}
 
 ## Challenge target
 
