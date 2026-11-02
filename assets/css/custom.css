@@ -1746,14 +1746,16 @@ img {
     box-shadow: var(--shadow-sm);
 }
 
-.news-post .post-callout p {
+.news-post .post-callout p,
+.challenge-page .post-callout p {
     margin: 0;
     font-size: 1.1rem;
     font-weight: 500;
     color: #134e4a;
 }
 
-.news-post .post-callout a {
+.news-post .post-callout a,
+.challenge-page .post-callout a {
     font-weight: 700;
     color: var(--primary-dark);
     text-decoration: underline;

@@ -8,14 +8,14 @@ title: Blind Challenge
 challenge:
   eyebrow: Alchemistry 2027
   tagline: Predict binding free energies for 54 Dengue-2 NS2B-NS3 protease inhibitors before the experimental values are released.
-  status: Opens November 1, 2026
+  status: Submissions open on Hugging Face
   facts:
     - icon: bullseye
       label: Predict
       value: ΔG for 54 compounds
-    - icon: calendar-check
-      label: Submissions open
-      value: November 1, 2026
+    - icon: cloud-arrow-up
+      label: Submit on
+      value: Hugging Face
     - icon: hourglass-end
       label: Final deadline
       value: March 25, 2027
@@ -25,34 +25,20 @@ challenge:
   resources:
     - title: Challenge on Hugging Face
       icon: hugging-face
-      text: Full description, rules and FAQ, the submission portal and the live leaderboards.
+      text: Where all predictions are submitted. Also has the full rules, the FAQ and the live leaderboards.
       button: Go to the challenge
       url: https://huggingface.co/spaces/openadmet/alchemistry-2027-challenge
     - title: Challenge dataset
       icon: database
-      text: The 54 compounds as CXSMILES and a reference X-ray structure, released November 1.
+      text: The 54 compounds as CXSMILES and a reference X-ray structure.
       button: Get the data
-      # Public from November 1: https://huggingface.co/datasets/openadmet/alchemistry-2027-antiviral-blind-challenge
-      url: ""
+      url: https://huggingface.co/datasets/openadmet/alchemistry-2027-antiviral-blind-challenge
     - title: Discuss on Discord
       icon: discord
       icon_style: brands
       text: Ask questions and talk with other participants and the organisers.
       button: Join the Discord
       url: https://discord.gg/fC3XGwEJW
-  # Companies offering participants licences and compute; leave `logo` empty to show the name instead
-  compute_support:
-    - name: Cresset
-      url: https://cresset-group.com/
-      logo: /assets/images/sponsors/Cresset.png
-    - name: OpenEye Cadence Molecular Sciences
-      url: https://www.eyesopen.com/
-      logo: /assets/images/sponsors/OpenEye.png
-    - name: Rowan
-      url: https://rowansci.com/
-      logo: /assets/images/sponsors/Rowan.svg
-  # Set to the Space's direct URL (https://<owner>-<space>.hf.space) to embed the leaderboard on this page
-  leaderboard_embed: ""
   # Notebook shown and offered for download in the Tutorial section, with the outputs saved in it
   tutorial:
     notebook: /blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb
@@ -61,6 +47,11 @@ challenge:
     pdb: 9T4P
     caption: "Dengue-2 NS2B-NS3 protease (PDB 9T4P), solved by the ASAP Discovery Consortium. The reference X-ray structure for pose generation is provided with the challenge dataset on Hugging Face."
 ---
+
+<aside class="post-callout">
+    <span class="post-callout-icon" aria-hidden="true">🤗</span>
+    <p><strong>All predictions must be submitted on Hugging Face.</strong> Use the Submit tab on the <a href="https://huggingface.co/spaces/openadmet/alchemistry-2027-challenge" target="_blank" rel="noopener">challenge page</a>. This website only describes the challenge and does not accept submissions.</p>
+</aside>
 
 ## About the challenge
 
@@ -76,7 +67,7 @@ The challenge is organised by the Alchemistry 2027 committee with ASAP Discovery
     <li class="challenge-step">
         {% include icon.html name="book-open" %}
         <h3>Get the data</h3>
-        <p>From November 1, download the 54 compounds as CXSMILES and a reference X-ray structure from Hugging Face.</p>
+        <p>Download the 54 compounds as CXSMILES and a reference X-ray structure from Hugging Face.</p>
     </li>
     <li class="challenge-step">
         {% include icon.html name="atom" %}
@@ -86,12 +77,12 @@ The challenge is organised by the Alchemistry 2027 committee with ASAP Discovery
     <li class="challenge-step">
         {% include icon.html name="cloud-arrow-up" %}
         <h3>Submit</h3>
-        <p>Upload a CSV of predictions and a short description of your method on Hugging Face. Entries are anonymous by default.</p>
+        <p>Upload a CSV of predictions and a short description of your method on the Submit tab of the Hugging Face challenge page, the only place submissions are accepted. Entries are anonymous by default.</p>
     </li>
     <li class="challenge-step">
         {% include icon.html name="chart-line" %}
         <h3>Compare</h3>
-        <p>Follow the live leaderboards, then hear the results and top-performing methods at the workshop.</p>
+        <p>Follow the live leaderboards on Hugging Face, then hear the results and top-performing methods at the workshop.</p>
     </li>
 </ol>
 
@@ -112,55 +103,3 @@ The tutorial notebook walks through a complete submission: downloading the test 
 The target is the NS2B-NS3 protease of Dengue virus serotype 2. The protease is essential for viral replication and maturation, which makes it a prime target for antiviral drugs against a mosquito-borne disease that affects millions of people worldwide. Drag to rotate the structure, hold Ctrl or ⌘ and scroll (or pinch) to zoom, and Ctrl-drag to move it.
 
 {% include structure_viewer.html pdb=page.challenge.structure.pdb file=page.challenge.structure.file ligand=page.challenge.structure.ligand caption=page.challenge.structure.caption %}
-
-Because ASAP is an open science discovery centre, the experimental details behind the data are public: the [construct protocol](https://www.protocols.io/view/dengue-virus-serotype-2-ns2b-ns3-protease-fusion-c-4r3l2qqdpl1y/v2){: .intro-link}, the [assay protocol](https://www.protocols.io/view/assay-for-screening-of-compounds-that-inhibit-enzy-kqdg32m87v25/v1){: .intro-link} and the [Target Enabling Package](https://asapdiscovery.org/outputs/target-enabling-packages/#ASAP-DENV-NS2B-NS3){: .intro-link}.
-
-{% if page.challenge.leaderboard_embed and page.challenge.leaderboard_embed != "" %}
-## Live leaderboard
-
-<iframe class="challenge-embed" src="{{ page.challenge.leaderboard_embed }}" title="Blind challenge leaderboard" loading="lazy"></iframe>
-{% endif %}
-
-## Timeline
-
-All submission deadlines are 23:59 UTC.
-
-| Milestone | Date |
-|-----------|------|
-| Test set released and submissions open | November 1, 2026 |
-| Deadline for the intermediate leaderboard | January 15, 2027 |
-| Intermediate leaderboard released | January 25, 2027 |
-| Submissions close | March 25, 2027 |
-| Final leaderboard released | From April 1, 2027 |
-| Results discussed at the workshop | May 3–5, 2027 |
-{:.dates-table}
-
-## Evaluation
-
-The primary metric is Kendall's τ, which measures how well a method ranks the compounds by potency, the question that matters most to medicinal chemists. The leaderboards also report Spearman's ρ, Pearson R², ST-RAE and the mean absolute error. Until the intermediate leaderboard, live scores are computed on a subset of the test set. The full scoring protocol is described on the [challenge page](https://huggingface.co/spaces/openadmet/alchemistry-2027-challenge){: .intro-link}.
-
-## Compute support
-
-You don't need a room full of GPUs to take part. Participants will be able to request software licences for system preparation and compute tokens from the companies below, on a first-come, first-served basis. Terms and offerings differ between companies, and details will be announced.
-
-<div class="challenge-partners">
-    {%- for company in page.challenge.compute_support %}
-    <a href="{{ company.url }}" target="_blank" rel="noopener" title="{{ company.name }}">
-        {%- if company.logo and company.logo != "" %}
-        <img src="{{ company.logo | relative_url }}" alt="{{ company.name }}">
-        {%- else %}
-        <span class="challenge-sponsor-name">{{ company.name }}</span>
-        {%- endif %}
-    </a>
-    {%- endfor %}
-</div>
-
-## Questions
-
-Start with the FAQ tab on the [challenge page](https://huggingface.co/spaces/openadmet/alchemistry-2027-challenge){: .intro-link} on Hugging Face. If your question isn't answered there, ask in the `#🦟alchemistry-2027-challenge` channel on our [Discord](https://discord.gg/fC3XGwEJW){: .intro-link}, or email [alchemistry@omsf.io](mailto:alchemistry@omsf.io){: .intro-link}. Announcements will also be posted on the [Latest News]({{ '/news/' | relative_url }}){: .intro-link} page.
-
-## Acknowledgments
-
-Special thanks go to the experimentalists across the ASAP Discovery Consortium without whom the challenge would not have been possible.
-
-The data featured in this challenge was generated by ASAP under NIH NIAID Antiviral Drug Discovery (AViDD) grant U19AI171399. OpenBind received funding from the UK Department of Science, Innovation and Technology under grant number G2-SCH-2025-06-16537. The OpenADMET team would like to thank Radial (part of the Astera Institute ([https://ror.org/00ydx1s47](https://ror.org/00ydx1s47){: .intro-link})) for continuing support of our blind challenge efforts.
