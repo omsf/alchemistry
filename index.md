@@ -11,7 +11,7 @@ next_workshop:
   # Shown under the venue with a Google Maps link built from it
   address: "213 East Grand Avenue, South San Francisco, CA 94080"
   # Paste the 2027 links when they exist; empty shows the button as "opens soon"
-  registration_url: ""
+  registration_url: "https://www.zeffy.com/en-US/ticketing/alchemistry-free-energy-workshop--2027"
   abstract_url: ""
 # "Follow Along" section near the bottom of the page
 social:
