@@ -50,7 +50,7 @@ table tr:nth-child(even) {
 
 | **Sponsorship Level** | **Contribution** | **Seats Allotted** |
 |-----------------------|------------------|--------------------|
-| Level 1               | >$3,000          | 3                  |
-| Level 2               | $1500-$2999      | 2                  |
-| Level 3               | $500-$1499       | 1                  |
+| Level 1               | >$4,000          | 3                  |
+| Level 2               | $2000-$4999      | 2                  |
+| Level 3               | $500-$2099       | 1                  |
 | Level 4               | <$500            | 0                  |
