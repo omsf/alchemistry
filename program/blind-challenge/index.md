@@ -39,6 +39,25 @@ challenge:
       text: Ask questions and talk with other participants and the organisers.
       button: Join the Discord
       url: https://discord.gg/fC3XGwEJW
+  # Form where participants request the free compute time and software licences below
+  compute_form: https://docs.google.com/forms/d/e/1FAIpQLSejtDjobcZUCKY78TQ8HqAOzKFLN-_cgpRGDBeqoa4EqRKRcQ/viewform?usp=publish-editor
+  # Companies offering participants licences and compute; leave `logo` empty to show the name instead
+  compute_support:
+    - name: Cresset
+      url: https://cresset-group.com/
+      logo: /assets/images/sponsors/Cresset.png
+    - name: OpenEye Cadence Molecular Sciences
+      url: https://www.eyesopen.com/
+      logo: /assets/images/sponsors/OpenEye.png
+    - name: Rowan
+      url: https://rowansci.com/
+      logo: /assets/images/sponsors/Rowan.svg
+    - name: Lambda.ai
+      url: https://lambda.ai/
+      logo: ""
+    - name: SaladCloud
+      url: https://salad.com/
+      logo: ""
   # Notebook shown and offered for download in the Tutorial section, with the outputs saved in it
   tutorial:
     notebook: /blind_challenges/2027/tutorial/alchemistry_2027_tutorial.ipynb
@@ -72,7 +91,7 @@ The challenge is organised by the Alchemistry 2027 committee with ASAP Discovery
     <li class="challenge-step">
         {% include icon.html name="atom" %}
         <h3>Compute</h3>
-        <p>Predict a binding free energy for each compound in kcal/mol, with an uncertainty, using any method on your own hardware.</p>
+        <p>Predict a binding free energy for each compound in kcal/mol, with an uncertainty, using any method, on your own hardware or with compute from our sponsors.</p>
     </li>
     <li class="challenge-step">
         {% include icon.html name="cloud-arrow-up" %}
@@ -87,6 +106,26 @@ The challenge is organised by the Alchemistry 2027 committee with ASAP Discovery
 </ol>
 
 Relative (edge-based) methods also submit the ΔΔG for each edge of their perturbation network, and participants are asked to share their predicted poses. The exact file formats are described on the [challenge page](https://huggingface.co/spaces/openadmet/alchemistry-2027-challenge){: .intro-link}.
+
+## Compute support
+
+Participants submitting free energy calculations can request compute time and software licences at no cost, thanks to the sponsors below. Fill out the request form to get access to these resources.
+
+<div class="button-container">
+    <a href="{{ page.challenge.compute_form }}" class="btn btn-primary" target="_blank" rel="noopener">Request compute and licences <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</div>
+
+<div class="challenge-partners">
+    {%- for company in page.challenge.compute_support %}
+    <a href="{{ company.url }}" target="_blank" rel="noopener" title="{{ company.name }}">
+        {%- if company.logo and company.logo != "" %}
+        <img src="{{ company.logo | relative_url }}" alt="{{ company.name }}">
+        {%- else %}
+        <span class="challenge-sponsor-name">{{ company.name }}</span>
+        {%- endif %}
+    </a>
+    {%- endfor %}
+</div>
 
 ## Tutorial
 
