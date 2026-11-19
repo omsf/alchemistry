@@ -134,7 +134,7 @@ title: Organizing Committee
 
 # 2026 Organizing Committee
 
-<!-- Teams are ordered so the 4-column board packs without gaps: span-N = number of members -->
+<!-- Teams sit on a 4-column board, span-N = number of members; order them so rows fill with as few gaps as possible -->
 <div class="committee-board">
   <section class="committee-team span-1">
     <h2 id="chair">Chair</h2>
@@ -260,7 +260,7 @@ title: Organizing Committee
   </div>
   </section>
 
-  <section class="committee-team span-2">
+  <section class="committee-team span-3">
     <h2 id="speakers-team">Speakers Team</h2>
   <div class="committee-grid">
     <div class="committee-card">
@@ -286,6 +286,19 @@ title: Organizing Committee
         <a href="https://www.linkedin.com/in/martin-voegele/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://bsky.app/profile/martinvoegele.bsky.social" target="_blank" title="Bluesky"><i class="fab fa-bluesky"></i></a>
         <a href="https://martinvoegele.github.io/" title="website"><i class="fas fa-globe"></i></a>
+      </div>
+    </div>
+
+    <div class="committee-card">
+      <img src="{{ '/about/committee/photos/Carol.png' | relative_url }}" alt="Member Name" class="member-photo">
+      <div class="member-name">Dr. Carolina Estarellas</div>
+      <div class="member-role">University of Barcelona</div>
+      <div class="member-bio">
+        I am an Associate Professor at the University of Barcelona. My research focuses on developing new therapeutic strategies targeting human gut microbiota enzymes and cellular energy regulators implicated in cardiometabolic diseases, using advanced computational approaches including quantum mechanics and molecular dynamics simulations with enhanced sampling methods.
+      </div>
+      <div class="member-links">
+        <a href="https://www.linkedin.com/in/carolina-estarellas-3339a2168/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.ub.edu/allo3d/" title="website"><i class="fas fa-globe"></i></a>
       </div>
     </div>
   </div>
